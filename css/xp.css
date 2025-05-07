@@ -1,0 +1,22 @@
+.experience{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 70px;
+}
+
+.experience h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.experience h3 h4 p{
+  padding-left: 20px;
+}
+
+.experience h4{
+  font-style: italic;
+}
+
+.experience h2{
+  margin-top: 20px;
+}

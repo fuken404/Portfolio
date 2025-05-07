@@ -1,0 +1,35 @@
+.refs{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 70px;
+}
+
+.refs h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.referencias {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-align: center;
+}
+
+.referencias p{
+  font-size: large;
+}
+
+.referencias h2{
+  margin-bottom: 20px;
+}
+
+.referencias ul{
+  list-style: none;
+}
+
+.referencias li{
+  margin-bottom: 15px;
+}
