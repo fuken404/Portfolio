@@ -2,239 +2,310 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV - Maycol Fuquene</title>
-  <link rel="stylesheet" href="./css/about.css">
-  <link rel="stylesheet" href="./css/includes.css">
-  <link rel="stylesheet" href="./css/xp.css">
-  <link rel="stylesheet" href="./css/projects.css">
-  <link rel="stylesheet" href="./css/study.css">
-  <link rel="stylesheet" href="./css/tech.css">
-  <link rel="stylesheet" href="./css/refs.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  
+  <!-- Meta tags SEO -->
+  <meta name="description" content="Portafolio de Maycol Fuquene - Desarrollador Full Stack e Ingeniero de Software. Experiencia en desarrollo web, aplicaciones y bases de datos.">
+  <meta name="keywords" content="desarrollador full stack, ingeniero de software, HTML5, CSS3, JavaScript, Python, React, Node.js, MongoDB, PostgreSQL">
+  <meta name="author" content="Maycol Fuquene">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fuken404.com/">
+  <meta property="og:title" content="Maycol Fuquene - Desarrollador Full Stack | Ingeniero de Software">
+  <meta property="og:description" content="Portafolio profesional de Maycol Fuquene, especializado en desarrollo web full stack y soluciones de software.">
+  <meta property="og:image" content="./resources/me.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://fuken404.com/">
+  <meta name="twitter:title" content="Maycol Fuquene - Desarrollador Full Stack | Ingeniero de Software">
+  <meta name="twitter:description" content="Portafolio profesional de Maycol Fuquene, especializado en desarrollo web full stack y soluciones de software.">
+  <meta name="twitter:image" content="./resources/me.jpg">
+
+  <title>Maycol Fuquene</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="canonical" href="https://fuken404.com/">
+  <link rel="shorcut icon" href="./resources/me.jpg">
+  
+  <!-- Google Tag Manager -->
+  <!-- ...existing GTM code... -->
 </head>
+
 <body>
   <header class="header">
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
     <nav class="menu">
       <li><a href="./index.html" class="about-me">Sobre Mi</a></li>
       <li><a href="#tech" class="techNav">Habilidades Técnicas</a></li>
-      <li><a href="#experience" class="experienceNav">Experiencia</a></li>
+      <li><a href="#experience" class="experienceNav">Experiencia</a></li>  
       <!-- <li><a href="#projects" class="projectsNav">Proyectos</a></li> -->
       <li><a href="#study" class="studyNav">Educación</a></li>
       <li><a href="#refs" class="refsNav">Referencias</a></li>
+      <li><a href="./Projects/Noticias/noticias.html" class="notNav">Noticias</a></li>
     </nav>
-    <div class="languages">
-      <button class="lang-btn" data-language="es"><img src="./resources/engIcon.png" alt=""></button>
-      <button class="lang-btn" data-language="en"><img src="./resources/espIcon.png" alt=""></button>
-    </div>
+    <!---<div class="languages">
+      <button class="lang-btn" data-language="en" id="enLang"><img src="./resources/engIcon.png" alt=""></button>
+      <button class="lang-btn" data-language="es" id="esLang"><img src="./resources/espIcon.png" alt=""></button>
+    </div>-->
   </header>
-  <section class="resume">
-    <img src="./resources/me.jpg" alt="Me" class="profile">
-    <div class="personal-data">
-      <div class="titulo">
-        <h1 class="name">Maycol Fuquene</h1>
-        <h2 class="cargo" id="cargo">Desarrollador Full Stack | Ingeniero de Software</h2>
+  
+  <main>
+    <section class="resume" aria-label="Información Personal" itemscope itemtype="http://schema.org/Person">
+      <img src="./resources/me.jpg" alt="Foto de Maycol Fuquene - Desarrollador Full Stack" class="profile" width="300" height="300" itemprop="image">
+      <div class="personal-data">
+        <div class="titulo">
+          <h1 class="name" itemprop="name">Maycol Fuquene</h1>
+          <h2 class="cargo" id="cargo" itemprop="jobTitle">Desarrollador Full Stack | Ingeniero de Software</h2>
+        </div>
+        <p id="descripcion" itemprop="description">
+           Estudiante de octavo semestre de Ingeniería de Software con dominio de tecnologías de desarrollo web back-end
+           y front-end, desarrollo de aplicaciones de escritorio y herramientas ofimáticas intermedias. Capacidad para aprender 
+           con facilidad, con fuertes habilidades de comunicación interpersonal, pasión por el trabajo en equipo y el análisis, 
+           gestión y transformación de datos.
+        </p>
+        <div class="enlaces">
+          <a href="http://linkedin.com/in/maycol-fuquene/" class="redes" itemprop="sameAs"><img src="./resources/linkedin.png" alt="LinkedIn de Maycol Fuquene"></a>
+          <a href="https://github.com/fuken404" class="redes" itemprop="sameAs"><img src="./resources/github.png" alt="GitHub de Maycol Fuquene"></a>
+          <a href="https://www.instagram.com/fuken404/" class="redes" itemprop="sameAs"><img src="./resources/instagram.png" alt="Instagram de Maycol Fuquene"></a>
+        </div>
+
+        <!-- Solo mantener la información SEO oculta aquí -->
+        <div style="display:none;">
+          <span itemprop="nationality">Colombiano</span>
+          <span itemprop="knowsLanguage">Español</span>
+          <span itemprop="knowsLanguage">English</span>
+          <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Bogotá</span>,
+            <span itemprop="addressCountry">Colombia</span>
+          </div>
+          <span itemprop="email">maycolfuquene.dev@outlook.com</span>
+          <span itemprop="telephone">+57 305 880 9060</span>
+          <span itemprop="url">https://fuken404.com</span>
+        </div>
       </div>
-      <p id="descripcion">Estudiante de octavo semestre de Ingeniería de Software con dominio de tecnologías de desarrollo web back-end
-         y front-end, desarrollo de aplicaciones de escritorio y herramientas ofimáticas intermedias. Capacidad para aprender 
-         con facilidad, con fuertes habilidades de comunicación interpersonal, pasión por el trabajo en equipo y el análisis, 
-         gestión y transformación de datos.
-      </p>
-      <div class="enlaces">
-        <a href="http://linkedin.com/in/maycol-fuquene/" class="redes"><img src="./resources/linkedin.png" alt="In"></a>
-        <a href="https://github.com/fuken404" class="redes"><img src="./resources/github.png" alt="Git"></a>
-        <a href="https://www.instagram.com/fuken404/" class="redes"><img src="./resources/instagram.png" alt="Ig"></a>
-      </div>
-    </div>
-  </section>
-  <section class="tech" id="tech">
-    <h1>Habilidades Técnicas</h1>
-    <div class="habilidades">
+    </section>
+
+    <section class="tech" id="tech" aria-label="Habilidades Técnicas">
+      <h1>Habilidades Técnicas</h1>
+      <div class="habilidades">
+        <!-- Las habilidades ocultas para SEO se mantienen -->
+        <div itemprop="hasSkill" itemscope itemtype="http://schema.org/DefinedTerm" style="display:none;">
+          <!-- ...existing SEO skills... -->
+        </div>
+
+        <!-- Tarjetas visibles de habilidades -->
+        <div class="tech-skill">
+          <img src="./resources/skills/html.png" alt="Logo HTML5" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>HTML5</b></h6>
+          <progress class="skill-Level" value="85" max="100">85%</progress>
+        </div>
+        
+        <div class="tech-skill">
+          <img src="./resources/skills/css.png" alt="Logo CSS3" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>CSS3</b></h6>
+          <progress class="skill-Level" value="85" max="100">85%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/js.png" alt="Logo JavaScript" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>JavaScript</b></h6>
+          <progress class="skill-Level" value="85" max="100">85%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/python.png" alt="Logo Python" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>Python</b></h6>
+          <progress class="skill-Level" value="80" max="100">80%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/java.png" alt="Logo Java" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>Java</b></h6>
+          <progress class="skill-Level" value="80" max="100">80%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/react.png" alt="Logo React" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>React</b></h6>
+          <progress class="skill-Level" value="60" max="100">60%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/django.png" alt="Logo Django" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>Django</b></h6>
+          <progress class="skill-Level" value="70" max="100">70%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/docker.png" alt="Logo Docker" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>Docker</b></h6>
+          <progress class="skill-Level" value="70" max="100">70%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/linux.png" alt="Logo Linux" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>Linux</b></h6>
+          <progress class="skill-Level" value="70" max="100">70%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/node.png" alt="Logo Node.js" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>Node.js</b></h6>
+          <progress class="skill-Level" value="60" max="100">60%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/mysql.png" alt="Logo MySQL" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>MySQL</b></h6>
+          <progress class="skill-Level" value="80" max="100">80%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/postgresql.png" alt="Logo PostgreSQL" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>PostgreSQL</b></h6>
+          <progress class="skill-Level" value="70" max="100">70%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/firebase.png" alt="Logo Firebase" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>Firebase</b></h6>
+          <progress class="skill-Level" value="70" max="100">70%</progress>
+        </div>
+        <div class="tech-skill">
+          <img src="./resources/skills/mongo.png" alt="Logo MongoDB" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>MongoDB</b></h6>
+          <progress class="skill-Level" value="60" max="100">60%</progress>
+        </div>
       <div class="tech-skill">
-        <img src="./resources/skills/html.png" alt="HTML5" class="skill-Icon">
-        <h6 class="skill-Title"><b>HTML5</b></h6>
-        <progress id="file" max="100" value="85" class="skill-Level">85%</progress>
+          <img src="./resources/skills/api.png" alt="Logo API" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>API Restful</b></h6>
+          <progress class="skill-Level" value="80" max="100">80%</progress>
       </div>
       <div class="tech-skill">
-        <img src="./resources/skills/css.png" alt="CSS5" class="skill-Icon">
-        <h6 class="skill-Title"><b>CSS3</b></h6>
-        <progress id="file" max="100" value="85" class="skill-Level">85%</progress>
+          <img src="./resources/skills/scrum.png" alt="Logo Scrum" class="skill-Icon" width="50" height="50">
+          <h6 class="skill-Title"><b>Scrum</b></h6>
+          <progress class="skill-Level" value="90" max="100">90%</progress>
       </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/js.png" alt="JS" class="skill-Icon">
-        <h6 class="skill-Title"><b>JavaScript</b></h6>
-        <progress id="file" max="100" value="85" class="skill-Level">85%</progress>
       </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/python.png" alt="Python" class="skill-Icon">
-        <h6 class="skill-Title"><b>Python</b></h6>
-        <progress id="file" max="100" value="80" class="skill-Level">80%</progress>
+    </section>
+
+    <section class="experience" id="experience" aria-label="Experiencia Laboral">
+      <h1>Experiencia Laboral</h1>
+      <!-- Add schema.org markup -->
+      <div class="ar" itemscope itemtype="http://schema.org/WorkExperience">
+        <h2 itemprop="name">AR Construcciones</h2>
+        <h3>Promotor de Ventas</h3>
+        <h4>Junio 2023 - Actualidad</h4>
+        <p>Promover ventas en proyectos de vivienda asistiendo y asesorando a clientes en la compra de vivienda nueva, 
+          gestionando leads y cerrando tratos en piso de venta. Además, gestionar los sistemas CRM y ERP, como SINCO y 
+          SmartHome, así como las plataformas fiduciarias asociadas a los proyectos.</p>
+        <h3>Promotor de Ventas Fin de Semana</h3>
+        <h4>Mayo 2022 - Mayo 2023</h4>
+        <p>Promover las ventas en proyectos de vivienda, especialmente de viviendas para personas con bajos ingresos, 
+          atendiendo y asesorando a los clientes en la compra de nuevas viviendas, gestionando los contactos y cerrando 
+          tratos en la sala de ventas.</p>
       </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/java.png" alt="Java" class="skill-Icon">
-        <h6 class="skill-Title"><b>Java</b></h6>
-        <progress id="file" max="100" value="80" class="skill-Level">80%</progress>
+      <div class="choquibmar">
+        <h2>Choquibmar</h2>
+        <h3>Mesero</h3>
+        <h4>Febrero 2022 - Abril 2022</h4>
+        <p>Atender a personas de todas las edades y realizar tareas de limpieza general.</p>
       </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/react.png" alt="React" class="skill-Icon">
-        <h6 class="skill-Title"><b>React</b></h6>
-        <progress id="file" max="100" value="60" class="skill-Level">60%</progress>
+      <div class="soltec">
+        <h2>D&M Soltec</h2>
+        <h3>Técnico en Sistemas</h3>
+        <h4>Diciembre 2020 - Febrero 2022</h4>
+        <p>Realizar el mantenimiento físico, lógico, preventivo y correctivo, así como el montaje de equipos de cómputo, 
+          brindando atención al cliente y asesoría en la venta de productos tecnológicos de acuerdo a sus necesidades.</p>
       </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/django.png" alt="Django" class="skill-Icon">
-        <h6 class="skill-Title"><b>Django</b></h6>
-        <progress id="file" max="100" value="70" class="skill-Level">70%</progress>
+    </section>
+
+    <!-- <section class="projects" id="projects">
+      <h1>Portafolio</h1>
+    </section> -->
+
+    <section class="study" id="study" aria-label="Formación Académica">
+      <h1>Formación Académica</h1>
+      <!-- Add schema.org markup -->
+      <div class="academia">
+        <div class="cert" id="umb" itemscope itemtype="http://schema.org/EducationalOccupationalCredential">
+          <h2 itemprop="credentialCategory">Ingeniero de Software</h2>
+          <h3>Universidad Manuela Beltrán</h3>
+          <h5>Agosto 2021 - Actualidad</h5>
+        </div>
+        <div class="cert" id="sena">
+          <h2>Técnico en Sistemas</h2>
+          <h3>Sena</h3>
+          <h5>Marzo 2019 - Noviembre 2020</h5>
+        </div>
+        <div class="cert" id="mintic">
+          <h2>Desarrollador</h2>
+          <h3>MinTIC - U. Sergio Arboleda</h3>
+          <h5>Agosto 2021 - Actualidad</h5>
+        </div>
+        <div class="cert" id="scrum">
+          <h2>Fundamentos Scrum</h2>
+          <h3>SCRUMstudy</h3>
+          <h5>Febrero 2023 - Junio 2023</h5>
+        </div>
+        <div class="cert" id="infra2">
+          <h2>Infraestructura 2</h2>
+          <h3>Cisco Networking Academy</h3>
+          <h5>Agosto 2023 - Noviembre 2023</h5>
+        </div>
+        <div class="cert" id="infra1">
+          <h2>Infraestructura 1</h2>
+          <h3>Cisco Networking Academy</h3>
+          <h5>Febrero 2023 - Junio 2023</h5>
+        </div>
+        <div class="cert" id="linux">
+          <h2>Linux</h2>
+          <h3>Cisco Networking Academy</h3>
+          <h5>Febrero 2022 - Abril 2022</h5>
+        </div>
+        <div class="cert" id="python">
+          <h2>Python</h2>
+          <h3>Cisco Networking Academy</h3>
+          <h5>Agosto 2021 - Diciembre 2021</h5>
+        </div>
       </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/docker.png" alt="Docker" class="skill-Icon">
-        <h6 class="skill-Title"><b>Docker</b></h6>
-        <progress id="file" max="100" value="60" class="skill-Level">60%</progress>
+    </section>
+
+    <section class="refs" id="refs" aria-label="Referencias">
+      <h1>Referencias</h1>
+      <div class="referencias">
+        <div class="laborales">
+          <h2>Laborales</h2>
+          <ul>
+            <li>
+              <p><strong>Miguel Angel Lozano Quiroga</strong></p>
+              <p>Vendedor Senior</p>
+              <p>+57 300 836 9071</p>
+            </li>
+            <li>
+              <p><strong>Alejandra Soto Escucha</strong></p>
+              <p>Vendedor Senior</p>
+              <p>+57 314 336 0891</p>
+            </li>
+          </ul>
+        </div>
+        <div class="personales">
+          <h2>Personales</h2>
+          <ul>
+            <li>
+              <p><strong>Maria Paula Chibuque Torres</strong></p>
+              <p>Estudiante Medicina Veterinaria y Zootecnia</p>
+              <p>+57 311 384 0485</p>
+            </li>
+            <li>
+              <p><strong>Juan David Moreno Pico</strong></p>
+              <p>Estudiante de Ingeniería de Sistemas</p>
+              <p>+57 313 381 4695</p>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/linux.png" alt="Linux" class="skill-Icon">
-        <h6 class="skill-Title"><b>Linux</b></h6>
-        <progress id="file" max="100" value="70" class="skill-Level">70%</progress>
-      </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/node.png" alt="Node.js" class="skill-Icon">
-        <h6 class="skill-Title"><b>Node.js</b></h6>
-        <progress id="file" max="100" value="60" class="skill-Level">60%</progress>
-      </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/mysql.png" alt="Mysql" class="skill-Icon">
-        <h6 class="skill-Title"><b>MySQL</b></h6>
-        <progress id="file" max="100" value="80" class="skill-Level">80%</progress>
-      </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/postgresql.png" alt="PostgreSQL" class="skill-Icon">
-        <h6 class="skill-Title"><b>PostgreSQL</b></h6>
-        <progress id="file" max="100" value="70" class="skill-Level">70%</progress>
-      </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/firebase.png" alt="Firebase" class="skill-Icon">
-        <h6 class="skill-Title"><b>Firebase</b></h6>
-        <progress id="file" max="100" value="70" class="skill-Level">70%</progress>
-      </div>
-      <div class="tech-skill">
-        <img src="./resources/skills/mongo.png" alt="Mongo" class="skill-Icon">
-        <h6 class="skill-Title"><b>MongoDB</b></h6>
-        <progress id="file" max="100" value="60" class="skill-Level">60%</progress>
-      </div>
-    </div>
-  </section>
-  <section class="experience" id="experience">
-    <h1>Experiencia Laboral</h1>
-    <div class="ar">
-      <h2>AR Construcciones</h2>
-      <h3>Promotor de Ventas</h3>
-      <h4>Junio 2023 - Actualidad</h4>
-      <p>Promover ventas en proyectos de vivienda asistiendo y asesorando a clientes en la compra de vivienda nueva, 
-        gestionando leads y cerrando tratos en piso de venta. Además, gestionar los sistemas CRM y ERP, como SINCO y 
-        SmartHome, así como las plataformas fiduciarias asociadas a los proyectos.</p>
-      <h3>Promotor de Ventas Fin de Semana</h3>
-      <h4>Mayo 2022 - Mayo 2023</h4>
-      <p>Promover las ventas en proyectos de vivienda, especialmente de viviendas para personas con bajos ingresos, 
-        atendiendo y asesorando a los clientes en la compra de nuevas viviendas, gestionando los contactos y cerrando 
-        tratos en la sala de ventas.</p>
-    </div>
-    <div class="choquibmar">
-      <h2>Choquibmar</h2>
-      <h3>Mesero</h3>
-      <h4>Febrero 2022 - Abril 2022</h4>
-      <p>Atender a personas de todas las edades y realizar tareas de limpieza general.</p>
-    </div>
-    <div class="soltec">
-      <h2>D&M Soltec</h2>
-      <h3>Técnico en Sistemas</h3>
-      <h4>Diciciembre 2020 - Febrero 2022</h4>
-      <p>Realizar el mantenimiento físico, lógico, preventivo y correctivo, así como el montaje de equipos de cómputo, 
-        brindando atención al cliente y asesoría en la venta de productos tecnológicos de acuerdo a sus necesidades.</p>
-    </div>
-  </section>
-  <!-- <section class="projects" id="projects">
-    <h1>Portafolio</h1>
-  </section> -->
-  <section class="study" id="study">
-    <h1>Formación Académica</h1>
-    <div class="academia">
-      <div class="cert" id="umb">
-        <h2>Ingeniero de Software</h2>
-        <h3>Universidad Manuela Beltrán</h3>
-        <h5>Agosto 2021 - Actualidad</h5>
-      </div>
-      <div class="cert" id="sena">
-        <h2>Técnico en Sistemas</h2>
-        <h3>Sena</h3>
-        <h5>Marzo 2019 - Noviembre 2020</h5>
-      </div>
-      <div class="cert" id="mintic">
-        <h2>Desarrollador</h2>
-        <h3>MinTIC - U. Sergio Arboleda</h3>
-        <h5>Agosto 2021 - Actualidad</h5>
-      </div>
-      <div class="cert" id="scrum">
-        <h2>Fundamentos Scrum</h2>
-        <h3>SCRUMstudy</h3>
-        <h5>Febrero 2023 - Junio 2023</h5>
-      </div>
-      <div class="cert" id="infra2">
-        <h2>Infraestructura 2</h2>
-        <h3>Cisco Networking Academy</h3>
-        <h5>Agosto 2023 - Noviembre 2023</h5>
-      </div>
-      <div class="cert" id="infra1">
-        <h2>Infraestructura 1</h2>
-        <h3>Cisco Networking Academy</h3>
-        <h5>Febrero 2023 - Junio 2023</h5>
-      </div>
-      <div class="cert" id="linux">
-        <h2>Linux</h2>
-        <h3>Cisco Networking Academy</h3>
-        <h5>Febrero 2022 - Abril 2022</h5>
-      </div>
-      <div class="cert" id="python">
-        <h2>Python</h2>
-        <h3>Cisco Networking Academy</h3>
-        <h5>Agosto 2021 - Diciciembre 2021</h5>
-      </div>
-    </div>
-  </section>
-  <section class="refs" id="refs">
-    <h1>Referencias</h1>
-    <div class="referencias">
-      <div class="laborales">
-        <h2>Laborales</h2>
-        <ul>
-          <li>
-            <p><strong>Miguel Angel Lozano Quiroga</strong></p>
-            <p>Vendedor Senior</p>
-            <p>+57 300 836 9071</p>
-          </li>
-          <li>
-            <p><strong>Alejandra Soto Escucha</strong></p>
-            <p>Vendedor Senior</p>
-            <p>+57 314 336 0891</p>
-          </li>
-        </ul>
-      </div>
-      <div class="personales">
-        <h2>Personales</h2>
-        <ul>
-          <li>
-            <p><strong>Maria Paula Chibuque Torres</strong></p>
-            <p>Estudiante Medicina Veterinaria y Zootecnia</p>
-            <p>+57 311 384 0485</p>
-          </li>
-          <li>
-            <p><strong>Juan David Moreno Pico</strong></p>
-            <p>Estudiante de Ingeniería de Sistemas</p>
-            <p>+57 313 381 4695</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
+
   <footer>
-    <div class="footer-left">
+    <!-- Add schema.org markup -->
+    <div class="footer-left" itemscope itemtype="http://schema.org/Person">
       <a href="#">@fuken404</a>
   </div>
   <div class="footer-center">
@@ -253,7 +324,14 @@
       </svg></a>
   </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="./js/main.js"></script>
+
+  <!-- Preload important resources -->
+  <link rel="preload" href="./resources/me.jpg" as="image">
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/sweetalert2@11" as="script">
+
+  <!-- Scripts at the end for better performance -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  <script src="./js/main.js" defer></script>
 </body>
 </html>

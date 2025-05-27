@@ -1,0 +1,46 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+  .error-404 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f5f6fa;
+    color: #2d2d2d;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .error-404 h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #4b3fa7;
+    font-weight: bold;
+  }
+
+  .error-404 p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .imagen-404 {
+    width: 180px;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .volver-inicio {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: #4b3fa7;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background 0.2s;
+  }
+  
+  .volver-inicio:hover {
+    background: #362d7c;
+  }

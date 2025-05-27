@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+body {
+  font-family: Moserrat, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+    background: #3D3B8E;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header a{
+  justify-content: space-between;
+  font-size: large;
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+article {
+    background: #ffffff;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #f4f4f4;
+}
+
+time {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.noticias-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.noticias-header-row .atras {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: underline;
+  margin-right: 1.5rem;
+}
+
+.noticias-header-row h1 {
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+    article {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
