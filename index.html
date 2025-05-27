@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  
+
   <!-- Meta tags SEO -->
-  <meta name="description" content="Portafolio de Maycol Fuquene - Desarrollador Full Stack e Ingeniero de Software. Experiencia en desarrollo web, aplicaciones y bases de datos.">
-  <meta name="keywords" content="desarrollador full stack, ingeniero de software, HTML5, CSS3, JavaScript, Python, React, Node.js, MongoDB, PostgreSQL">
+  <meta name="description"
+    content="Portafolio de Maycol Fuquene - Desarrollador Full Stack e Ingeniero de Software. Experiencia en desarrollo web, aplicaciones y bases de datos.">
+  <meta name="keywords"
+    content="desarrollador full stack, ingeniero de software, HTML5, CSS3, JavaScript, Python, React, Node.js, MongoDB, PostgreSQL">
   <meta name="author" content="Maycol Fuquene">
   <meta name="robots" content="index, follow">
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://fuken404.com/">
   <meta property="og:title" content="Maycol Fuquene - Desarrollador Full Stack | Ingeniero de Software">
-  <meta property="og:description" content="Portafolio profesional de Maycol Fuquene, especializado en desarrollo web full stack y soluciones de software.">
+  <meta property="og:description"
+    content="Portafolio profesional de Maycol Fuquene, especializado en desarrollo web full stack y soluciones de software.">
   <meta property="og:image" content="./resources/me.jpg">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://fuken404.com/">
   <meta name="twitter:title" content="Maycol Fuquene - Desarrollador Full Stack | Ingeniero de Software">
-  <meta name="twitter:description" content="Portafolio profesional de Maycol Fuquene, especializado en desarrollo web full stack y soluciones de software.">
+  <meta name="twitter:description"
+    content="Portafolio profesional de Maycol Fuquene, especializado en desarrollo web full stack y soluciones de software.">
   <meta name="twitter:image" content="./resources/me.jpg">
 
   <title>Maycol Fuquene</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="canonical" href="https://fuken404.com/">
   <link rel="shorcut icon" href="./resources/me.jpg">
-  
+
   <!-- Google Tag Manager -->
-  <!-- ...existing GTM code... -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-56CJZRDR');</script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56CJZRDR" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header class="header">
     <div class="hamburger" onclick="toggleMenu()">
       <span></span>
@@ -43,7 +60,7 @@
     <nav class="menu">
       <li><a href="./index.html" class="about-me">Sobre Mi</a></li>
       <li><a href="#tech" class="techNav">Habilidades Técnicas</a></li>
-      <li><a href="#experience" class="experienceNav">Experiencia</a></li>  
+      <li><a href="#experience" class="experienceNav">Experiencia</a></li>
       <!-- <li><a href="#projects" class="projectsNav">Proyectos</a></li> -->
       <li><a href="#study" class="studyNav">Educación</a></li>
       <li><a href="#refs" class="refsNav">Referencias</a></li>
@@ -54,25 +71,31 @@
       <button class="lang-btn" data-language="es" id="esLang"><img src="./resources/espIcon.png" alt=""></button>
     </div>-->
   </header>
-  
+
   <main>
     <section class="resume" aria-label="Información Personal" itemscope itemtype="http://schema.org/Person">
-      <img src="./resources/me.jpg" alt="Foto de Maycol Fuquene - Desarrollador Full Stack" class="profile" width="300" height="300" itemprop="image">
+      <img src="./resources/me.jpg" alt="Foto de Maycol Fuquene - Desarrollador Full Stack" class="profile" width="300"
+        height="300" itemprop="image">
       <div class="personal-data">
         <div class="titulo">
           <h1 class="name" itemprop="name">Maycol Fuquene</h1>
           <h2 class="cargo" id="cargo" itemprop="jobTitle">Desarrollador Full Stack | Ingeniero de Software</h2>
         </div>
         <p id="descripcion" itemprop="description">
-           Estudiante de octavo semestre de Ingeniería de Software con dominio de tecnologías de desarrollo web back-end
-           y front-end, desarrollo de aplicaciones de escritorio y herramientas ofimáticas intermedias. Capacidad para aprender 
-           con facilidad, con fuertes habilidades de comunicación interpersonal, pasión por el trabajo en equipo y el análisis, 
-           gestión y transformación de datos.
+          Estudiante de octavo semestre de Ingeniería de Software con dominio de tecnologías de desarrollo web back-end
+          y front-end, desarrollo de aplicaciones de escritorio y herramientas ofimáticas intermedias. Capacidad para
+          aprender
+          con facilidad, con fuertes habilidades de comunicación interpersonal, pasión por el trabajo en equipo y el
+          análisis,
+          gestión y transformación de datos.
         </p>
         <div class="enlaces">
-          <a href="http://linkedin.com/in/maycol-fuquene/" class="redes" itemprop="sameAs"><img src="./resources/linkedin.png" alt="LinkedIn de Maycol Fuquene"></a>
-          <a href="https://github.com/fuken404" class="redes" itemprop="sameAs"><img src="./resources/github.png" alt="GitHub de Maycol Fuquene"></a>
-          <a href="https://www.instagram.com/fuken404/" class="redes" itemprop="sameAs"><img src="./resources/instagram.png" alt="Instagram de Maycol Fuquene"></a>
+          <a href="http://linkedin.com/in/maycol-fuquene/" class="redes" itemprop="sameAs"><img
+              src="./resources/linkedin.png" alt="LinkedIn de Maycol Fuquene"></a>
+          <a href="https://github.com/fuken404" class="redes" itemprop="sameAs"><img src="./resources/github.png"
+              alt="GitHub de Maycol Fuquene"></a>
+          <a href="https://www.instagram.com/fuken404/" class="redes" itemprop="sameAs"><img
+              src="./resources/instagram.png" alt="Instagram de Maycol Fuquene"></a>
         </div>
 
         <!-- Solo mantener la información SEO oculta aquí -->
@@ -105,7 +128,7 @@
           <h6 class="skill-Title"><b>HTML5</b></h6>
           <progress class="skill-Level" value="85" max="100">85%</progress>
         </div>
-        
+
         <div class="tech-skill">
           <img src="./resources/skills/css.png" alt="Logo CSS3" class="skill-Icon" width="50" height="50">
           <h6 class="skill-Title"><b>CSS3</b></h6>
@@ -171,16 +194,16 @@
           <h6 class="skill-Title"><b>MongoDB</b></h6>
           <progress class="skill-Level" value="60" max="100">60%</progress>
         </div>
-      <div class="tech-skill">
+        <div class="tech-skill">
           <img src="./resources/skills/api.png" alt="Logo API" class="skill-Icon" width="50" height="50">
           <h6 class="skill-Title"><b>API Restful</b></h6>
           <progress class="skill-Level" value="80" max="100">80%</progress>
-      </div>
-      <div class="tech-skill">
+        </div>
+        <div class="tech-skill">
           <img src="./resources/skills/scrum.png" alt="Logo Scrum" class="skill-Icon" width="50" height="50">
           <h6 class="skill-Title"><b>Scrum</b></h6>
           <progress class="skill-Level" value="90" max="100">90%</progress>
-      </div>
+        </div>
       </div>
     </section>
 
@@ -191,13 +214,13 @@
         <h2 itemprop="name">AR Construcciones</h2>
         <h3>Promotor de Ventas</h3>
         <h4>Junio 2023 - Actualidad</h4>
-        <p>Promover ventas en proyectos de vivienda asistiendo y asesorando a clientes en la compra de vivienda nueva, 
-          gestionando leads y cerrando tratos en piso de venta. Además, gestionar los sistemas CRM y ERP, como SINCO y 
+        <p>Promover ventas en proyectos de vivienda asistiendo y asesorando a clientes en la compra de vivienda nueva,
+          gestionando leads y cerrando tratos en piso de venta. Además, gestionar los sistemas CRM y ERP, como SINCO y
           SmartHome, así como las plataformas fiduciarias asociadas a los proyectos.</p>
         <h3>Promotor de Ventas Fin de Semana</h3>
         <h4>Mayo 2022 - Mayo 2023</h4>
-        <p>Promover las ventas en proyectos de vivienda, especialmente de viviendas para personas con bajos ingresos, 
-          atendiendo y asesorando a los clientes en la compra de nuevas viviendas, gestionando los contactos y cerrando 
+        <p>Promover las ventas en proyectos de vivienda, especialmente de viviendas para personas con bajos ingresos,
+          atendiendo y asesorando a los clientes en la compra de nuevas viviendas, gestionando los contactos y cerrando
           tratos en la sala de ventas.</p>
       </div>
       <div class="choquibmar">
@@ -210,8 +233,9 @@
         <h2>D&M Soltec</h2>
         <h3>Técnico en Sistemas</h3>
         <h4>Diciembre 2020 - Febrero 2022</h4>
-        <p>Realizar el mantenimiento físico, lógico, preventivo y correctivo, así como el montaje de equipos de cómputo, 
-          brindando atención al cliente y asesoría en la venta de productos tecnológicos de acuerdo a sus necesidades.</p>
+        <p>Realizar el mantenimiento físico, lógico, preventivo y correctivo, así como el montaje de equipos de cómputo,
+          brindando atención al cliente y asesoría en la venta de productos tecnológicos de acuerdo a sus necesidades.
+        </p>
       </div>
     </section>
 
@@ -307,22 +331,29 @@
     <!-- Add schema.org markup -->
     <div class="footer-left" itemscope itemtype="http://schema.org/Person">
       <a href="#">@fuken404</a>
-  </div>
-  <div class="footer-center">
+    </div>
+    <div class="footer-center">
       <a href="mailto:maycolfuquene.dev@outlook.com">Correo: maycolfuquene.dev@outlook.com</a><br>
-      <a href="https://api.whatsapp.com/send/?phone=573058809060&text&type=phone_number&app_absent=0">Teléfono: +57 305 880 9060</a>
-  </div>
-  <div class="footer-right">
-      <a href="https://www.instagram.com/fuken404/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-      </svg></a>
-      <a href="https://github.com/fuken404"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-      </svg></a>
-      <a href="http://linkedin.com/in/maycol-fuquene/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-      </svg></a>
-  </div>
+      <a href="https://api.whatsapp.com/send/?phone=573058809060&text&type=phone_number&app_absent=0">Teléfono: +57 305
+        880 9060</a>
+    </div>
+    <div class="footer-right">
+      <a href="https://www.instagram.com/fuken404/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path
+            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+        </svg></a>
+      <a href="https://github.com/fuken404"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+        </svg></a>
+      <a href="http://linkedin.com/in/maycol-fuquene/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+        </svg></a>
+    </div>
   </footer>
 
   <!-- Preload important resources -->
@@ -334,4 +365,5 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
   <script src="./js/main.js" defer></script>
 </body>
+
 </html>
