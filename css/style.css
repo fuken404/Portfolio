@@ -382,6 +382,131 @@ footer {
   width: 70%;
 }
 
+.amigues {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.amigues h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.amigues-ind a {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  background: #FDF8F0;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 2px solid #e0e0e0;
+  overflow: hidden;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding: 0;
+  margin: 10px;
+}
+
+.banners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  padding: 22px 16px 16px 16px;
+}
+
+.banner-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3D3B8E;
+  margin-bottom: 16px;
+}
+
+.banner-name {
+  display: block;
+  font-weight: 700;
+  color: #2d3a4a;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.banner-des {
+  display: block;
+  color: #5a6b7a;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.banner-btn {
+  background: #3D3B8E;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+  transition: background 0.2s;
+  display: block;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .amigues-ind a {
+    width: 160px;
+  }
+  .banner-img {
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media (max-width: 600px) {
+  .amigues {
+    margin-top: 10px;
+  }
+  .amigues h1 {
+    font-size: 24px;
+  }
+  .amigues-ind a {
+    width: 100%;
+    min-width: 0;
+    max-width: 320px;
+    margin: 8px auto;
+  }
+  .banner-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .banner-name {
+    font-size: 1rem;
+  }
+  .banner-des {
+    font-size: 0.95rem;
+    margin-bottom: 14px;
+  }
+  .banner-btn {
+    font-size: 0.95rem;
+    padding: 8px 0;
+  }
+  .banners {
+    padding: 14px 8px 10px 8px;
+  }
+}
+
+
+
 /* Media queries */
 @media (max-width: 768px) {
   .habilidades {
@@ -431,88 +556,6 @@ footer {
 
 .experience h2 {
   margin-top: 20px;
-}
-
-
-.amigues {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.amigues h1 {
-  text-align: center;
-  font-size: 40px;
-}
-
-.amigues-ind a {
-  display: inline-block;
-  width: 200px;
-  height: auto;
-  background: #FDF8F0;
-  border-radius: 16px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  border: 2px solid #e0e0e0;
-  overflow: hidden;
-  text-decoration: none;
-  position: relative;
-  font-family: 'Montserrat', Arial, sans-serif;
-  padding: 0;
-}
-
-.banners {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:
-    flex-start;
-  height: auto;
-  padding: 22px 16px 16px 16px;
-}
-
-.banner-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #3D3B8E;
-  margin-bottom: 16px;
-}
-
-.banner-name {
-  display: block;
-  font-weight: 700;
-  color: #2d3a4a;
-  font-size: 1.1rem;
-  text-align: center;
-}
-
-.banner-des {
-  display: block;
-  color: #5a6b7a;
-  font-size: 1rem;
-  text-align: center;
-  margin-bottom: 22px;
-}
-
-.banner-btn {
-  margin-top: flex;
-  background: #3D3B8E;
-  color: #fff;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 0;
-  width: 100%;
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: pointer;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
-  transition: background 0.2s;
-  display: block;
-  letter-spacing: 0.5px;
 }
 
 /* ------------------- RESPONSIVE DESIGN ------------------- */
