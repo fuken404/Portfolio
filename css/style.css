@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Moserrat, sans-serif;
   line-height: 1.6;
@@ -12,7 +13,7 @@ body {
   color: #333;
 }
 
-header{
+header {
   width: 100%;
   background-color: #3D3B8E;
   display: flex;
@@ -22,29 +23,30 @@ header{
   box-shadow: 0px 5px 5px #6883BA;
 }
 
-.menu{
+.menu {
   gap: 35px;
   display: flex;
   list-style-type: none;
 }
-.menu a{
+
+.menu a {
   justify-content: space-between;
   font-size: large;
   text-decoration: none;
   color: white;
 }
 
-.menu a:hover{
+.menu a:hover {
   transition-duration: 200ms;
   text-decoration: underline;
   font-size: larger;
 }
 
-.languages{
+.languages {
   display: flex;
 }
 
-.languages button{
+.languages button {
   width: 40px;
   height: 40px;
   padding: 5px;
@@ -52,12 +54,13 @@ header{
   border: none;
   cursor: pointer;
 }
-.languages button img:hover{
+
+.languages button img:hover {
   transition-duration: 200ms;
-  filter:brightness(70%);
+  filter: brightness(70%);
 }
 
-.languages button img{
+.languages button img {
   width: 100%;
   height: auto;
   display: block;
@@ -77,44 +80,55 @@ footer {
   flex-wrap: wrap;
   margin-top: 40px;
 }
-.footer-left, .footer-center, .footer-right {
+
+.footer-left,
+.footer-center,
+.footer-right {
   flex: 1;
   text-align: center;
 }
+
 .footer-left {
   text-align: left;
   padding-left: 20px;
 }
+
 .footer-right {
   text-align: right;
   padding-right: 20px;
 }
+
 .footer-right a {
   margin: 0 8px;
   color: #b0c4de;
   text-decoration: none;
   font-size: 18px;
 }
+
 .footer-right a:hover {
   color: white;
 }
-.footer-center a{
+
+.footer-center a {
   margin: 0 8px;
   color: #b0c4de;
   text-decoration: none;
   font-size: 14px;
 }
-.footer-center a:hover{
-  color: white;  
+
+.footer-center a:hover {
+  color: white;
 }
-.footer-left a{
+
+.footer-left a {
   margin: 0 8px;
   color: #b0c4de;
   text-decoration: none;
   font-size: 18px;
 }
-.footer-left a:hover{
-  color: white;  
+
+.footer-left a:hover {
+  color: white;
 }
 
 .resume {
@@ -123,7 +137,8 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: auto; /* Eliminamos el calc que forzaba altura mínima */
+  min-height: auto;
+  /* Eliminamos el calc que forzaba altura mínima */
   padding: 20px;
   margin-bottom: 30px;
 }
@@ -136,16 +151,16 @@ footer {
   width: 300px;
   object-fit: cover;
   transform: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.resume h1{
+.resume h1 {
   text-align: center;
   font-size: 50px;
-  transform: translateY(35%); 
+  transform: translateY(35%);
 }
 
-.resume h2{
+.resume h2 {
   text-align: center;
   font-size: 18px;
   margin-top: 10px;
@@ -153,7 +168,7 @@ footer {
   transform: translateY(35%);
 }
 
-.resume p{
+.resume p {
   margin-left: 50px;
   text-align: center;
   font-size: larger;
@@ -161,14 +176,15 @@ footer {
   transform: translateY(50%);
 }
 
-.personal-data{
+.personal-data {
   width: 100%;
   max-width: 800px;
   text-align: center;
-  margin-top: 20px; /* Reducido de 30px */
+  margin-top: 20px;
+  /* Reducido de 30px */
 }
 
-.enlaces{
+.enlaces {
   margin-right: 50px;
   margin-left: 50px;
   padding: 50px;
@@ -182,13 +198,13 @@ footer {
   transition-duration: 400ms;
 }
 
-.enlaces img{
+.enlaces img {
   width: 40px;
   margin-right: 10px;
   border-radius: 100%;
 }
 
-.titulo{
+.titulo {
   margin: 20px auto;
   max-width: 600px;
 }
@@ -206,13 +222,13 @@ footer {
   transform: none;
 }
 
-.refs{
+.refs {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 70px;
 }
 
-.refs h1{
+.refs h1 {
   text-align: center;
   font-size: 40px;
 }
@@ -226,23 +242,23 @@ footer {
   text-align: center;
 }
 
-.referencias p{
+.referencias p {
   font-size: large;
 }
 
-.referencias h2{
+.referencias h2 {
   margin-bottom: 20px;
 }
 
-.referencias ul{
+.referencias ul {
   list-style: none;
 }
 
-.referencias li{
+.referencias li {
   margin-bottom: 15px;
 }
 
-.study{
+.study {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -253,16 +269,16 @@ footer {
   padding: 0 20px;
 }
 
-.study h1{
+.study h1 {
   text-align: center;
   font-size: 40px;
 }
 
-.study h2 h3 h4 h5{
+.study h2 h3 h4 h5 {
   text-align: center;
 }
 
-.study h4{
+.study h4 {
   font-style: italic;
 }
 
@@ -276,7 +292,7 @@ footer {
   align-items: stretch;
 }
 
-.cert{
+.cert {
   background-color: rgb(118, 146, 255, 0.2);
   border: 1px solid;
   padding: 15px;
@@ -288,11 +304,13 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative; /* Añadido para asegurar que el contenido no se desborde */
-  overflow: hidden; /* Previene desbordamiento de texto */
+  position: relative;
+  /* Añadido para asegurar que el contenido no se desborde */
+  overflow: hidden;
+  /* Previene desbordamiento de texto */
 }
 
-.cert:hover{
+.cert:hover {
   transition-duration: 500ms;
   cursor: pointer;
   background-color: rgb(118, 146, 255, 0.6);
@@ -351,16 +369,16 @@ footer {
   margin: 0 auto;
 }
 
-.tech-skill:hover{
+.tech-skill:hover {
   transition-duration: 500ms;
   background-color: rgb(118, 146, 255, 0.6);
 }
 
-.skill-Title{
+.skill-Title {
   font-size: medium;
 }
 
-.skill-Level{
+.skill-Level {
   width: 70%;
 }
 
@@ -389,28 +407,29 @@ footer {
   }
 }
 
-.experience{
+.experience {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px; /* Reducido de 70px */
+  margin-top: 40px;
+  /* Reducido de 70px */
   max-width: 1200px;
   padding: 0 20px;
 }
 
-.experience h1{
+.experience h1 {
   text-align: center;
   font-size: 40px;
 }
 
-.experience h3 h4 p{
+.experience h3 h4 p {
   padding-left: 20px;
 }
 
-.experience h4{
+.experience h4 {
   font-style: italic;
 }
 
-.experience h2{
+.experience h2 {
   margin-top: 20px;
 }
 
@@ -421,7 +440,7 @@ footer {
   .menu {
     gap: 20px;
   }
-  
+
   .resume,
   .referencias,
   .academia,
@@ -430,7 +449,7 @@ footer {
     grid-row-gap: 20px;
     padding: 0 20px;
   }
-  
+
   .tech,
   .experience,
   .study,
@@ -438,7 +457,7 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
   }
-  
+
   .profile {
     height: 300px;
     width: 300px;
@@ -462,58 +481,74 @@ footer {
   body {
     background: #f4f4f4;
   }
-  main, .resume, .tech, .experience, .study, .refs {
+
+  main,
+  .resume,
+  .tech,
+  .experience,
+  .study,
+  .refs {
     max-width: 100vw !important;
     width: 100% !important;
     box-sizing: border-box !important;
   }
+
   header,
   footer {
     flex-direction: column !important;
     padding: 1rem !important;
     align-items: stretch !important;
   }
+
   .footer-left,
   .footer-center,
   .footer-right {
     text-align: center !important;
     padding: 0 !important;
   }
+
   .resume {
     flex-direction: column !important;
     align-items: center !important;
     padding: 0 !important;
     margin: 0 !important;
   }
+
   .profile {
     height: 200px;
     width: 200px;
     margin: 20px auto;
     transform: none;
   }
+
   .resume h1 {
     font-size: 22px !important;
     margin: 10px 0 0 0 !important;
     transform: none !important;
   }
+
   .resume h2 {
     font-size: 13px !important;
     margin: 5px 0 !important;
     transform: none !important;
   }
+
   .resume p {
     font-size: 13px !important;
     margin: 10px 0 !important;
     transform: none !important;
   }
+
   .enlaces {
     margin: 10px 0 !important;
     padding: 10px 0 !important;
   }
+
   .enlaces img {
     width: 32px !important;
     margin: 0 5px !important;
   }
+
   .titulo {
     margin: 10px 0 !important;
     font-size: 18px !important;
@@ -541,7 +576,7 @@ footer {
 }
 
 
-.amigues{
+.amigues {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -550,11 +585,77 @@ footer {
   margin-top: 20px;
 }
 
-.amigues  h1{
+.amigues h1 {
   text-align: center;
   font-size: 40px;
 }
 
+.amigues-ind a {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  background: #FDF8F0;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 2px solid #e0e0e0;
+  overflow: hidden;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding: 0;
+}
+
+.banners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:
+    flex-start;
+  height: auto;
+  padding: 22px 16px 16px 16px;
+}
+
+.banner-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3D3B8E;
+  margin-bottom: 16px;
+}
+
+.banner-name {
+  display: block;
+  font-weight: 700;
+  color: #2d3a4a;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.banner-des {
+  display: block;
+  color: #5a6b7a;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.banner-btn {
+  margin-top: flex;
+  background: #3D3B8E;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+  transition: background 0.2s;
+  display: block;
+  letter-spacing: 0.5px;
+}
 
 /* Modificar el media query para móviles */
 @media (max-width: 768px) {
@@ -603,7 +704,11 @@ footer {
 
 /* Media queries actualizados */
 @media (max-width: 768px) {
-  .tech, .study, .experience, .refs {
+
+  .tech,
+  .study,
+  .experience,
+  .refs {
     margin-top: 30px;
   }
 
@@ -623,7 +728,11 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .tech, .study, .experience, .refs {
+
+  .tech,
+  .study,
+  .experience,
+  .refs {
     margin-top: 20px;
   }
 
@@ -632,7 +741,8 @@ footer {
     gap: 10px;
   }
 
-  .tech-skill, .cert {
+  .tech-skill,
+  .cert {
     max-width: 150px;
   }
 }
