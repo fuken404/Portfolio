@@ -91,33 +91,35 @@ Los comandos se ejecutan con `az` después de `az login`. Los valores entre `<>`
    - [x] Sondas de salud: se dejan las TCP por defecto (una sonda HTTP llegaría con la IP del pod como Host y Django la rechazaría por ALLOWED_HOSTS). `/api/health/` queda para pruebas manuales.
 
 5. Static Web Apps
-   - [ ] Crear `swa-portafolio` (plan Free) conectada al repo de GitHub, con `app_location: frontend` y `output_location: dist`. Azure agrega el workflow de GitHub Actions al repo.
+   - [x] Crear `swa-portafolio` (plan Free) conectada al repo de GitHub, con `app_location: frontend` y `output_location: dist`. Azure agrega el workflow de GitHub Actions al repo.
    - [x] `VITE_API_URL` no va en el workflow: Vite la toma de `frontend/.env.production` al compilar.
 
 6. Datos de producción
    - [x] `migrate`, `seed`, `attach_certificates` (sube los certificados a Blob) y `createsuperuser`, ejecutados contra la base de Azure.
-   - [ ] Quitar tu IP del firewall de Postgres al terminar.
+   - [x] Quitar tu IP del firewall de Postgres al terminar.
 
 ## Fase 3 · Dominio en Cloudflare
 
+> Pendiente: en la SWA, marcar `fuken404.dev` como dominio predeterminado para que `www` y `*.azurestaticapps.net` redirijan a él.
+
 Todos los registros que apuntan a Azure van en modo **DNS only (nube gris)**: con el proxy de Cloudflare activo, Azure no puede validar el dominio ni emitir los certificados. `.dev` exige HTTPS siempre, y ambos servicios emiten certificados gratis.
 
-- [ ] **`fuken404.dev` → Static Web Apps.** En la SWA, agregar dominio personalizado (apex) con validación por TXT. En Cloudflare: el registro `TXT` que indique Azure y un `CNAME @` hacia `<swa>.azurestaticapps.net` (Cloudflare lo "aplana" en el apex).
-- [ ] **`www.fuken404.dev` → Static Web Apps.** `CNAME www` hacia la misma SWA y agregarlo como segundo dominio (el plan Free permite 2).
-- [ ] **`api.fuken404.dev` → Container Apps.** En la Container App, agregar dominio con certificado administrado. En Cloudflare: `CNAME api` hacia `<app>.<entorno>.azurecontainerapps.io` y el `TXT asuid.api` con el ID de verificación.
-- [ ] Actualizar `ALLOWED_HOSTS`, `CORS_ALLOWED_ORIGINS` y `CSRF_TRUSTED_ORIGINS` con los dominios finales.
+- [x] **`fuken404.dev` → Static Web Apps.** En la SWA, agregar dominio personalizado (apex) con validación por TXT. En Cloudflare: el registro `TXT` que indique Azure y un `CNAME @` hacia `<swa>.azurestaticapps.net` (Cloudflare lo "aplana" en el apex).
+- [x] **`www.fuken404.dev` → Static Web Apps.** `CNAME www` hacia la misma SWA y agregarlo como segundo dominio (el plan Free permite 2).
+- [x] **`api.fuken404.dev` → Container Apps.** En la Container App, agregar dominio con certificado administrado. En Cloudflare: `CNAME api` hacia `<app>.<entorno>.azurecontainerapps.io` y el `TXT asuid.api` con el ID de verificación.
+- [x] Actualizar `ALLOWED_HOSTS`, `CORS_ALLOWED_ORIGINS` y `CSRF_TRUSTED_ORIGINS` con los dominios finales.
 
 ## Fase 4 · CI/CD
 
-- [ ] Frontend: el workflow de Static Web Apps compila y publica en cada push a `main` (y crea entornos de prueba por pull request).
+- [x] Frontend: el workflow de Static Web Apps compila y publica en cada push a `main` (y crea entornos de prueba por pull request).
 - [ ] Backend: workflow que construye la imagen, la sube a GHCR y ejecuta `az containerapp update` con la nueva etiqueta. Autenticación con Azure por OIDC (identidad federada), sin guardar contraseñas en GitHub.
 - [ ] Solo despliega el backend cuando cambian archivos en `backend/`, y el frontend cuando cambian en `frontend/`.
 
 ## Fase 5 · Verificación
 
-- [ ] `https://fuken404.dev` carga en ES y EN, modo claro y oscuro, y en móvil.
-- [ ] Las etiquetas de endpoint muestran `200` contra `api.fuken404.dev`.
-- [ ] Los certificados abren en el modal desde Blob Storage.
+- [x] `https://fuken404.dev` carga en ES y EN, modo claro y oscuro, y en móvil.
+- [x] Las etiquetas de endpoint muestran `200` contra `api.fuken404.dev`.
+- [x] Los certificados abren en el modal desde Blob Storage.
 - [ ] El formulario de contacto guarda el mensaje (revisar en el admin).
 - [ ] `https://api.fuken404.dev/admin/` funciona y exige login.
 - [ ] Revisar Cost Management a los pocos días para confirmar que todo está en USD 0.
