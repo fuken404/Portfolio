@@ -100,7 +100,7 @@ Los comandos se ejecutan con `az` después de `az login`. Los valores entre `<>`
 
 ## Fase 3 · Dominio en Cloudflare
 
-> Pendiente: en la SWA, marcar `fuken404.dev` como dominio predeterminado para que `www` y `*.azurestaticapps.net` redirijan a él.
+> `fuken404.dev` es el dominio predeterminado de la SWA: `www` y `*.azurestaticapps.net` redirigen a él.
 
 Todos los registros que apuntan a Azure van en modo **DNS only (nube gris)**: con el proxy de Cloudflare activo, Azure no puede validar el dominio ni emitir los certificados. `.dev` exige HTTPS siempre, y ambos servicios emiten certificados gratis.
 
@@ -112,8 +112,14 @@ Todos los registros que apuntan a Azure van en modo **DNS only (nube gris)**: co
 ## Fase 4 · CI/CD
 
 - [x] Frontend: el workflow de Static Web Apps compila y publica en cada push a `main` (y crea entornos de prueba por pull request).
-- [ ] Backend: workflow que construye la imagen, la sube a GHCR y ejecuta `az containerapp update` con la nueva etiqueta. Autenticación con Azure por OIDC (identidad federada), sin guardar contraseñas en GitHub.
-- [ ] Solo despliega el backend cuando cambian archivos en `backend/`, y el frontend cuando cambian en `frontend/`.
+- [x] Backend: workflow que construye la imagen, la sube a GHCR y ejecuta `az containerapp update` con la nueva etiqueta. Autenticación con Azure por OIDC (identidad federada), sin guardar contraseñas en GitHub.
+- [x] Solo despliega el backend cuando cambian archivos en `backend/`, y el frontend cuando cambian en `frontend/`.
+
+Notas de la Fase 4:
+- Identidad: registro de aplicación `github-portfolio-deploy` en Entra ID, con rol **Colaborador** solo sobre `api-portafolio`.
+- Credencial federada con sujeto `repo:fuken404@75033233/Portfolio@1430487944:environment:produccion` (GitHub usa el formato con IDs numéricos de usuario y repo).
+- Secretos del repo: `AZURE_CLIENT_ID`, `AZURE_TENANT_ID`, `AZURE_SUBSCRIPTION_ID`.
+- Cada despliegue usa la etiqueta `sha-<commit>`, así que siempre crea una revisión nueva y se puede volver a una anterior desde **Revisiones y réplicas**.
 
 ## Fase 5 · Verificación
 
