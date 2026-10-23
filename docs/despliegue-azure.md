@@ -40,31 +40,31 @@ Nombres sugeridos (ajústalos si alguno está tomado, los de Postgres y Storage 
 
 ## Fase 0 · Cuentas y herramientas
 
-- [ ] Crear la **cuenta gratuita de Azure** (pide tarjeta; es la que incluye PostgreSQL B1ms gratis 12 meses).
-- [ ] Instalar Azure CLI: `brew install azure-cli` y luego `az login`.
-- [ ] Instalar GitHub CLI: `brew install gh` y luego `gh auth login`.
-- [ ] Docker Desktop corriendo (ya lo tienes).
-- [ ] Crear un **presupuesto con alerta** en Cost Management (por ejemplo USD 5/mes) para enterarte de cualquier cobro.
+- [x] Crear la **cuenta gratuita de Azure** (pide tarjeta; es la que incluye PostgreSQL B1ms gratis 12 meses).
+- [x] Instalar Azure CLI: `brew install azure-cli` y luego `az login`.
+- [x] Instalar GitHub CLI: `brew install gh` y luego `gh auth login`.
+- [x] Docker Desktop corriendo (ya lo tienes).
+- [x] Crear un **presupuesto con alerta** en Cost Management (por ejemplo USD 5/mes) para enterarte de cualquier cobro.
 
 ## Fase 1 · Preparar el código para producción
 
 Backend:
-- [ ] `Dockerfile` + `.dockerignore` (Python slim, gunicorn, usuario sin privilegios).
-- [ ] Script de arranque: `migrate` y `collectstatic` antes de iniciar gunicorn.
-- [ ] WhiteNoise para servir los archivos estáticos del admin.
-- [ ] `django-storages[azure]` para guardar `media/` en Blob Storage cuando haya credenciales.
-- [ ] Ajustes de producción por variables de entorno: `DEBUG=False`, `ALLOWED_HOSTS`, `CSRF_TRUSTED_ORIGINS`, `CORS_ALLOWED_ORIGINS`, HTTPS (`SECURE_PROXY_SSL_HEADER`, HSTS, cookies seguras), conexión a Postgres con `sslmode=require`.
-- [ ] Endpoint `/api/health/` para las sondas de Container Apps.
-- [ ] Probar la imagen en local contra el Postgres de Docker.
+- [x] `Dockerfile` + `.dockerignore` (Python slim, gunicorn, usuario sin privilegios).
+- [x] Script de arranque: `migrate` y `collectstatic` antes de iniciar gunicorn.
+- [x] WhiteNoise para servir los archivos estáticos del admin.
+- [x] `django-storages[azure]` para guardar `media/` en Blob Storage cuando haya credenciales.
+- [x] Ajustes de producción por variables de entorno: `DEBUG=False`, `ALLOWED_HOSTS`, `CSRF_TRUSTED_ORIGINS`, `CORS_ALLOWED_ORIGINS`, HTTPS (`SECURE_PROXY_SSL_HEADER`, HSTS, cookies seguras), conexión a Postgres con `sslmode=require`.
+- [x] Endpoint `/api/health/` para las sondas de Container Apps.
+- [x] Probar la imagen en local contra el Postgres de Docker.
 
 Frontend:
-- [ ] Usar `VITE_API_URL=https://api.fuken404.dev/api` en el build de producción.
-- [ ] `staticwebapp.config.json`: fallback de la SPA, cabeceras de seguridad y caché de assets.
+- [x] Usar `VITE_API_URL=https://api.fuken404.dev/api` en el build de producción.
+- [x] `staticwebapp.config.json`: fallback de la SPA, cabeceras de seguridad y caché de assets.
 - [ ] Regenerar `fallback.json` después de cargar la base de producción (para que las URLs de certificados apunten a Blob).
 
 Repositorio:
-- [ ] `git init`, revisar `.gitignore` (nada de `.env`, `media/`, `_originales/`), primer commit.
-- [ ] Crear el repo en GitHub y hacer push. Idea: reutilizar el nombre `Portfolio` después de borrar el viejo.
+- [x] `git init`, revisar `.gitignore` (nada de `.env`, `media/`, `_originales/`), primer commit.
+- [x] Repo público en GitHub: https://github.com/fuken404/Portfolio
 
 ## Fase 2 · Infraestructura en Azure
 
