@@ -92,7 +92,7 @@ Los comandos se ejecutan con `az` después de `az login`. Los valores entre `<>`
 
 5. Static Web Apps
    - [ ] Crear `swa-portafolio` (plan Free) conectada al repo de GitHub, con `app_location: frontend` y `output_location: dist`. Azure agrega el workflow de GitHub Actions al repo.
-   - [ ] Agregar `VITE_API_URL` al workflow.
+   - [x] `VITE_API_URL` no va en el workflow: Vite la toma de `frontend/.env.production` al compilar.
 
 6. Datos de producción
    - [x] `migrate`, `seed`, `attach_certificates` (sube los certificados a Blob) y `createsuperuser`, ejecutados contra la base de Azure.
