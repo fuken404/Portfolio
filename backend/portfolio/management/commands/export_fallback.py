@@ -19,6 +19,8 @@ OUTPUT = settings.BASE_DIR.parent / 'frontend' / 'src' / 'data' / 'fallback.json
 
 
 class Command(BaseCommand):
+    # Ejecútalo contra la base de producción (o arma el JSON desde la API pública)
+    # para que las URLs de certificados apunten a Blob Storage y no a /media local.
     help = 'Exporta el contenido (ES + EN) al respaldo local del frontend, con la misma forma que la API.'
 
     def handle(self, *args, **options):

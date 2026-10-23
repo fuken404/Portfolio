@@ -28,7 +28,7 @@ Nombres sugeridos (ajústalos si alguno está tomado, los de Postgres y Storage 
 
 | Variable | Valor |
 | --- | --- |
-| Región | `eastus2` (todo en la misma región) |
+| Región | `centralus` (todo en la misma región; tu suscripción no puede crear PostgreSQL en `eastus2`) |
 | Grupo de recursos | `rg-portafolio` |
 | PostgreSQL | `pg-fuken404` · base `portafolio` |
 | Storage | `stfuken404` · contenedor `media` |
@@ -60,7 +60,7 @@ Backend:
 Frontend:
 - [x] Usar `VITE_API_URL=https://api.fuken404.dev/api` en el build de producción.
 - [x] `staticwebapp.config.json`: fallback de la SPA, cabeceras de seguridad y caché de assets.
-- [ ] Regenerar `fallback.json` después de cargar la base de producción (para que las URLs de certificados apunten a Blob).
+- [x] Regenerar `fallback.json` después de cargar la base de producción (para que las URLs de certificados apunten a Blob).
 
 Repositorio:
 - [x] `git init`, revisar `.gitignore` (nada de `.env`, `media/`, `_originales/`), primer commit.
@@ -71,31 +71,31 @@ Repositorio:
 Los comandos se ejecutan con `az` después de `az login`. Los valores entre `<>` se completan en el momento.
 
 1. Grupo de recursos
-   - [ ] `az group create --name rg-portafolio --location eastus2`
+   - [x] `az group create --name rg-portafolio --location centralus`
 
 2. PostgreSQL Flexible Server
-   - [ ] Crear el servidor B1ms, versión 17, 32 GB, acceso público:
-     `az postgres flexible-server create --resource-group rg-portafolio --name pg-fuken404 --location eastus2 --tier Burstable --sku-name Standard_B1ms --storage-size 32 --version 17 --admin-user <usuario> --admin-password <clave> --public-access 0.0.0.0`
+   - [x] Crear el servidor B1ms, versión 17, 32 GB, acceso público:
+     `az postgres flexible-server create --resource-group rg-portafolio --name pg-fuken404 --location centralus --tier Burstable --sku-name Standard_B1ms --storage-size 32 --version 17 --admin-user <usuario> --admin-password <clave> --public-access 0.0.0.0`
      (`0.0.0.0` permite solo servicios de Azure.)
-   - [ ] Crear la base: `az postgres flexible-server db create --resource-group rg-portafolio --server-name pg-fuken404 --database-name portafolio`
-   - [ ] Agregar tu IP al firewall solo mientras cargas datos desde tu Mac.
+   - [x] Crear la base: `az postgres flexible-server db create --resource-group rg-portafolio --server-name pg-fuken404 --database-name portafolio`
+   - [x] Agregar tu IP al firewall solo mientras cargas datos desde tu Mac.
 
 3. Blob Storage
-   - [ ] Crear la cuenta: `az storage account create --name stfuken404 --resource-group rg-portafolio --location eastus2 --sku Standard_LRS --allow-blob-public-access true`
-   - [ ] Crear el contenedor `media` con lectura pública de blobs (los certificados ya tienen el documento tapado).
+   - [x] Crear la cuenta: `az storage account create --name stfuken404 --resource-group rg-portafolio --location centralus --sku Standard_LRS --allow-blob-public-access true`
+   - [x] Crear el contenedor `media` con lectura pública de blobs (los certificados ya tienen el documento tapado).
 
 4. Container Apps
-   - [ ] Crear el entorno de consumo (con Log Analytics de retención mínima).
-   - [ ] Publicar la imagen en `ghcr.io/fuken404/portafolio-api` (primero a mano, luego por CI).
-   - [ ] Crear la app con ingreso externo en el puerto 8000, `min-replicas 0`, `max-replicas 1`, y los secretos como variables: `SECRET_KEY`, `DATABASE_URL`, credenciales de Storage, `ALLOWED_HOSTS`, `CORS_ALLOWED_ORIGINS`, `CSRF_TRUSTED_ORIGINS`.
-   - [ ] Configurar sondas de salud contra `/api/health/`.
+   - [x] Crear el entorno de consumo (con Log Analytics de retención mínima).
+   - [x] Publicar la imagen en `ghcr.io/fuken404/portafolio-api` (primero a mano, luego por CI).
+   - [x] Crear la app con ingreso externo en el puerto 8000, `min-replicas 0`, `max-replicas 1`, y los secretos como variables: `SECRET_KEY`, `DATABASE_URL`, credenciales de Storage, `ALLOWED_HOSTS`, `CORS_ALLOWED_ORIGINS`, `CSRF_TRUSTED_ORIGINS`.
+   - [x] Sondas de salud: se dejan las TCP por defecto (una sonda HTTP llegaría con la IP del pod como Host y Django la rechazaría por ALLOWED_HOSTS). `/api/health/` queda para pruebas manuales.
 
 5. Static Web Apps
    - [ ] Crear `swa-portafolio` (plan Free) conectada al repo de GitHub, con `app_location: frontend` y `output_location: dist`. Azure agrega el workflow de GitHub Actions al repo.
    - [ ] Agregar `VITE_API_URL` al workflow.
 
 6. Datos de producción
-   - [ ] `migrate`, `seed`, `attach_certificates` (sube los certificados a Blob) y `createsuperuser`, ejecutados contra la base de Azure.
+   - [x] `migrate`, `seed`, `attach_certificates` (sube los certificados a Blob) y `createsuperuser`, ejecutados contra la base de Azure.
    - [ ] Quitar tu IP del firewall de Postgres al terminar.
 
 ## Fase 3 · Dominio en Cloudflare

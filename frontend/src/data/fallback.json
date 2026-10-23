@@ -15,7 +15,7 @@
   },
   "skills": [
    {
-    "id": 10,
+    "id": 1,
     "name": "Python",
     "slug": "python",
     "category": "languages",
@@ -23,7 +23,7 @@
     "is_core": true
    },
    {
-    "id": 11,
+    "id": 2,
     "name": "SQL",
     "slug": "sql",
     "category": "languages",
@@ -31,7 +31,7 @@
     "is_core": true
    },
    {
-    "id": 21,
+    "id": 12,
     "name": "Django",
     "slug": "django",
     "category": "backend",
@@ -39,7 +39,7 @@
     "is_core": true
    },
    {
-    "id": 23,
+    "id": 13,
     "name": "FastAPI",
     "slug": "fastapi",
     "category": "backend",
@@ -47,7 +47,7 @@
     "is_core": true
    },
    {
-    "id": 31,
+    "id": 22,
     "name": "React",
     "slug": "react",
     "category": "frontend",
@@ -55,7 +55,7 @@
     "is_core": true
    },
    {
-    "id": 38,
+    "id": 29,
     "name": "PostgreSQL",
     "slug": "postgresql",
     "category": "data",
@@ -63,7 +63,7 @@
     "is_core": true
    },
    {
-    "id": 49,
+    "id": 39,
     "name": "Agentes de IA",
     "slug": "agentes-de-ia",
     "category": "ai",
@@ -71,7 +71,7 @@
     "is_core": true
    },
    {
-    "id": 12,
+    "id": 3,
     "name": "JavaScript",
     "slug": "javascript",
     "category": "languages",
@@ -79,7 +79,7 @@
     "is_core": false
    },
    {
-    "id": 13,
+    "id": 4,
     "name": "TypeScript",
     "slug": "typescript",
     "category": "languages",
@@ -87,7 +87,7 @@
     "is_core": false
    },
    {
-    "id": 14,
+    "id": 5,
     "name": "Java",
     "slug": "java",
     "category": "languages",
@@ -95,7 +95,7 @@
     "is_core": false
    },
    {
-    "id": 15,
+    "id": 6,
     "name": "PHP",
     "slug": "php",
     "category": "languages",
@@ -103,7 +103,7 @@
     "is_core": false
    },
    {
-    "id": 17,
+    "id": 7,
     "name": "C#",
     "slug": "csharp",
     "category": "languages",
@@ -111,7 +111,7 @@
     "is_core": false
    },
    {
-    "id": 19,
+    "id": 8,
     "name": "HTML5",
     "slug": "html5",
     "category": "languages",
@@ -119,7 +119,7 @@
     "is_core": false
    },
    {
-    "id": 20,
+    "id": 9,
     "name": "CSS3",
     "slug": "css3",
     "category": "languages",
@@ -127,7 +127,7 @@
     "is_core": false
    },
    {
-    "id": 18,
+    "id": 10,
     "name": "C++",
     "slug": "cplusplus",
     "category": "languages",
@@ -135,7 +135,7 @@
     "is_core": false
    },
    {
-    "id": 16,
+    "id": 11,
     "name": "Visual Basic",
     "slug": "visual-basic",
     "category": "languages",
@@ -143,7 +143,7 @@
     "is_core": false
    },
    {
-    "id": 22,
+    "id": 14,
     "name": "Django REST Framework",
     "slug": "django-rest-framework",
     "category": "backend",
@@ -151,7 +151,7 @@
     "is_core": false
    },
    {
-    "id": 28,
+    "id": 15,
     "name": "APIs REST",
     "slug": "apis-rest",
     "category": "backend",
@@ -159,7 +159,7 @@
     "is_core": false
    },
    {
-    "id": 27,
+    "id": 16,
     "name": "Node.js",
     "slug": "nodejs",
     "category": "backend",
@@ -167,7 +167,7 @@
     "is_core": false
    },
    {
-    "id": 26,
+    "id": 17,
     "name": "Spring Boot",
     "slug": "spring-boot",
     "category": "backend",
@@ -175,7 +175,7 @@
     "is_core": false
    },
    {
-    "id": 29,
+    "id": 18,
     "name": "GraphQL",
     "slug": "graphql",
     "category": "backend",
@@ -183,7 +183,7 @@
     "is_core": false
    },
    {
-    "id": 25,
+    "id": 19,
     "name": "Celery",
     "slug": "celery",
     "category": "backend",
@@ -191,7 +191,7 @@
     "is_core": false
    },
    {
-    "id": 30,
+    "id": 20,
     "name": "JWT",
     "slug": "jwt",
     "category": "backend",
@@ -199,7 +199,7 @@
     "is_core": false
    },
    {
-    "id": 24,
+    "id": 21,
     "name": "Symfony",
     "slug": "symfony",
     "category": "backend",
@@ -207,7 +207,7 @@
     "is_core": false
    },
    {
-    "id": 32,
+    "id": 23,
     "name": "Angular",
     "slug": "angular",
     "category": "frontend",
@@ -215,7 +215,7 @@
     "is_core": false
    },
    {
-    "id": 36,
+    "id": 24,
     "name": "React Native",
     "slug": "react-native",
     "category": "frontend",
@@ -223,7 +223,7 @@
     "is_core": false
    },
    {
-    "id": 37,
+    "id": 25,
     "name": "Flutter",
     "slug": "flutter",
     "category": "frontend",
@@ -231,7 +231,7 @@
     "is_core": false
    },
    {
-    "id": 33,
+    "id": 26,
     "name": "Sass / SCSS",
     "slug": "sass-scss",
     "category": "frontend",
@@ -239,7 +239,7 @@
     "is_core": false
    },
    {
-    "id": 34,
+    "id": 27,
     "name": "Bootstrap",
     "slug": "bootstrap",
     "category": "frontend",
@@ -247,7 +247,7 @@
     "is_core": false
    },
    {
-    "id": 35,
+    "id": 28,
     "name": "AJAX",
     "slug": "ajax",
     "category": "frontend",
@@ -255,7 +255,7 @@
     "is_core": false
    },
    {
-    "id": 39,
+    "id": 30,
     "name": "MySQL",
     "slug": "mysql",
     "category": "data",
@@ -263,7 +263,7 @@
     "is_core": false
    },
    {
-    "id": 42,
+    "id": 31,
     "name": "MongoDB",
     "slug": "mongodb",
     "category": "data",
@@ -271,7 +271,7 @@
     "is_core": false
    },
    {
-    "id": 43,
+    "id": 32,
     "name": "Redis",
     "slug": "redis",
     "category": "data",
@@ -279,7 +279,7 @@
     "is_core": false
    },
    {
-    "id": 45,
+    "id": 33,
     "name": "Pandas",
     "slug": "pandas",
     "category": "data",
@@ -287,7 +287,7 @@
     "is_core": false
    },
    {
-    "id": 41,
+    "id": 34,
     "name": "SQLite",
     "slug": "sqlite",
     "category": "data",
@@ -295,7 +295,7 @@
     "is_core": false
    },
    {
-    "id": 44,
+    "id": 35,
     "name": "Firebase",
     "slug": "firebase",
     "category": "data",
@@ -303,7 +303,7 @@
     "is_core": false
    },
    {
-    "id": 40,
+    "id": 36,
     "name": "MariaDB",
     "slug": "mariadb",
     "category": "data",
@@ -311,7 +311,7 @@
     "is_core": false
    },
    {
-    "id": 46,
+    "id": 37,
     "name": "Power BI",
     "slug": "power-bi",
     "category": "data",
@@ -319,7 +319,7 @@
     "is_core": false
    },
    {
-    "id": 47,
+    "id": 38,
     "name": "Streamlit",
     "slug": "streamlit",
     "category": "data",
@@ -327,7 +327,7 @@
     "is_core": false
    },
    {
-    "id": 50,
+    "id": 40,
     "name": "Integración de LLMs",
     "slug": "integracion-de-llms",
     "category": "ai",
@@ -335,7 +335,7 @@
     "is_core": false
    },
    {
-    "id": 48,
+    "id": 41,
     "name": "OpenAI API",
     "slug": "openai-api",
     "category": "ai",
@@ -343,7 +343,7 @@
     "is_core": false
    },
    {
-    "id": 51,
+    "id": 42,
     "name": "LangChain",
     "slug": "langchain",
     "category": "ai",
@@ -351,7 +351,7 @@
     "is_core": false
    },
    {
-    "id": 54,
+    "id": 43,
     "name": "Machine learning",
     "slug": "machine-learning",
     "category": "ai",
@@ -359,7 +359,7 @@
     "is_core": false
    },
    {
-    "id": 52,
+    "id": 44,
     "name": "Claude",
     "slug": "claude",
     "category": "ai",
@@ -367,7 +367,7 @@
     "is_core": false
    },
    {
-    "id": 53,
+    "id": 45,
     "name": "ChatGPT",
     "slug": "chatgpt",
     "category": "ai",
@@ -375,7 +375,7 @@
     "is_core": false
    },
    {
-    "id": 57,
+    "id": 46,
     "name": "Docker",
     "slug": "docker",
     "category": "tools",
@@ -383,7 +383,7 @@
     "is_core": false
    },
    {
-    "id": 55,
+    "id": 47,
     "name": "Git",
     "slug": "git",
     "category": "tools",
@@ -391,7 +391,7 @@
     "is_core": false
    },
    {
-    "id": 60,
+    "id": 48,
     "name": "AWS",
     "slug": "aws",
     "category": "tools",
@@ -399,7 +399,7 @@
     "is_core": false
    },
    {
-    "id": 58,
+    "id": 49,
     "name": "Linux",
     "slug": "linux",
     "category": "tools",
@@ -407,7 +407,7 @@
     "is_core": false
    },
    {
-    "id": 56,
+    "id": 50,
     "name": "GitHub",
     "slug": "github",
     "category": "tools",
@@ -415,7 +415,7 @@
     "is_core": false
    },
    {
-    "id": 61,
+    "id": 51,
     "name": "Azure",
     "slug": "azure",
     "category": "tools",
@@ -423,7 +423,7 @@
     "is_core": false
    },
    {
-    "id": 62,
+    "id": 52,
     "name": "GCP",
     "slug": "gcp",
     "category": "tools",
@@ -431,7 +431,7 @@
     "is_core": false
    },
    {
-    "id": 59,
+    "id": 53,
     "name": "Nginx",
     "slug": "nginx",
     "category": "tools",
@@ -439,7 +439,7 @@
     "is_core": false
    },
    {
-    "id": 63,
+    "id": 54,
     "name": "Jira",
     "slug": "jira",
     "category": "tools",
@@ -447,7 +447,7 @@
     "is_core": false
    },
    {
-    "id": 65,
+    "id": 55,
     "name": "Certificados SSL",
     "slug": "certificados-ssl",
     "category": "tools",
@@ -455,7 +455,7 @@
     "is_core": false
    },
    {
-    "id": 64,
+    "id": 56,
     "name": "Notion",
     "slug": "notion",
     "category": "tools",
@@ -463,7 +463,7 @@
     "is_core": false
    },
    {
-    "id": 71,
+    "id": 57,
     "name": "Pruebas de software",
     "slug": "pruebas-de-software",
     "category": "practices",
@@ -471,7 +471,7 @@
     "is_core": false
    },
    {
-    "id": 74,
+    "id": 58,
     "name": "Scrum",
     "slug": "scrum",
     "category": "practices",
@@ -479,7 +479,7 @@
     "is_core": false
    },
    {
-    "id": 67,
+    "id": 59,
     "name": "Principios SOLID",
     "slug": "principios-solid",
     "category": "practices",
@@ -487,7 +487,7 @@
     "is_core": false
    },
    {
-    "id": 68,
+    "id": 60,
     "name": "Código limpio",
     "slug": "codigo-limpio",
     "category": "practices",
@@ -495,7 +495,7 @@
     "is_core": false
    },
    {
-    "id": 66,
+    "id": 61,
     "name": "Programación orientada a objetos",
     "slug": "programacion-orientada-a-objetos",
     "category": "practices",
@@ -503,7 +503,7 @@
     "is_core": false
    },
    {
-    "id": 73,
+    "id": 62,
     "name": "Sistemas distribuidos",
     "slug": "sistemas-distribuidos",
     "category": "practices",
@@ -511,7 +511,7 @@
     "is_core": false
    },
    {
-    "id": 69,
+    "id": 63,
     "name": "Desarrollo seguro",
     "slug": "desarrollo-seguro",
     "category": "practices",
@@ -519,7 +519,7 @@
     "is_core": false
    },
    {
-    "id": 72,
+    "id": 64,
     "name": "Revisión de código",
     "slug": "revision-de-codigo",
     "category": "practices",
@@ -527,7 +527,7 @@
     "is_core": false
    },
    {
-    "id": 70,
+    "id": 65,
     "name": "Patrón MVC",
     "slug": "patron-mvc",
     "category": "practices",
@@ -535,7 +535,7 @@
     "is_core": false
    },
    {
-    "id": 75,
+    "id": 66,
     "name": "Kanban",
     "slug": "kanban",
     "category": "practices",
@@ -543,7 +543,7 @@
     "is_core": false
    },
    {
-    "id": 76,
+    "id": 67,
     "name": "Design Thinking",
     "slug": "design-thinking",
     "category": "practices",
@@ -553,7 +553,7 @@
   ],
   "projects": [
    {
-    "id": 8,
+    "id": 1,
     "title": "Habitare",
     "slug": "habitare",
     "summary": "Plataforma para administrar conjuntos residenciales: visitas, paquetes, PQRS, reservas de zonas comunes, sorteo de parqueaderos y facturación, con varios conjuntos en una sola instalación.",
@@ -577,7 +577,7 @@
     "featured": true
    },
    {
-    "id": 1,
+    "id": 2,
     "title": "BrickByBrick",
     "slug": "brickbybrick",
     "summary": "Plataforma para donar materiales de construcción excedentes en Bogotá: conecta constructoras con familias y emprendimientos, con trazabilidad de entregas y constancias tributarias en PDF.",
@@ -778,7 +778,7 @@
     "hours": null,
     "credential_id": "LF-rvet3v32qn",
     "credential_url": "",
-    "file": "/media/certificates/lfd121-developing-secure-software.png"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/lfd121-developing-secure-software.png"
    },
    {
     "id": 1,
@@ -789,7 +789,7 @@
     "hours": null,
     "credential_id": "01KM8NF7W981TG00725NTPYKGM",
     "credential_url": "",
-    "file": "/media/certificates/enterprise-full-stack-spring-angular.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/enterprise-full-stack-spring-angular.jpg"
    },
    {
     "id": 8,
@@ -800,7 +800,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-gestion-amenazas-ciberneticas.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-gestion-amenazas-ciberneticas.jpg"
    },
    {
     "id": 9,
@@ -811,7 +811,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/ibm-enterprise-design-thinking.png"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/ibm-enterprise-design-thinking.png"
    },
    {
     "id": 10,
@@ -822,7 +822,7 @@
     "hours": null,
     "credential_id": "1021290",
     "credential_url": "",
-    "file": "/media/certificates/scrum-fundamentals-certified.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/scrum-fundamentals-certified.jpg"
    },
    {
     "id": 11,
@@ -833,7 +833,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-ccna-switching-routing-wireless.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-ccna-switching-routing-wireless.jpg"
    },
    {
     "id": 12,
@@ -844,7 +844,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-ccna-introduction-to-networks.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-ccna-introduction-to-networks.jpg"
    },
    {
     "id": 13,
@@ -855,29 +855,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-ndg-linux-unhatched.jpg"
-   },
-   {
-    "id": 4,
-    "name": "Desarrollo de Aplicaciones Móviles Android",
-    "issuer": "MinTIC",
-    "category": "development",
-    "issued": "2021-12-01",
-    "hours": null,
-    "credential_id": "",
-    "credential_url": "",
-    "file": "/media/certificates/mintic-android.jpg"
-   },
-   {
-    "id": 2,
-    "name": "Misión TIC 2022 — Ruta completa",
-    "issuer": "MinTIC / Universidad Sergio Arboleda",
-    "category": "development",
-    "issued": "2021-12-01",
-    "hours": 800,
-    "credential_id": "",
-    "credential_url": "",
-    "file": "/media/certificates/mision-tic-2022-ruta-completa.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-ndg-linux-unhatched.jpg"
    },
    {
     "id": 6,
@@ -888,7 +866,29 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-pcap-python.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-pcap-python.jpg"
+   },
+   {
+    "id": 4,
+    "name": "Desarrollo de Aplicaciones Móviles Android",
+    "issuer": "MinTIC",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/mintic-android.jpg"
+   },
+   {
+    "id": 2,
+    "name": "Misión TIC 2022 — Ruta completa",
+    "issuer": "MinTIC / Universidad Sergio Arboleda",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": 800,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/mision-tic-2022-ruta-completa.jpg"
    },
    {
     "id": 3,
@@ -899,7 +899,7 @@
     "hours": 200,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/mision-tic-java.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/mision-tic-java.jpg"
    },
    {
     "id": 5,
@@ -910,7 +910,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/mintic-python.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/mintic-python.jpg"
    }
   ]
  },
@@ -930,7 +930,7 @@
   },
   "skills": [
    {
-    "id": 10,
+    "id": 1,
     "name": "Python",
     "slug": "python",
     "category": "languages",
@@ -938,7 +938,7 @@
     "is_core": true
    },
    {
-    "id": 11,
+    "id": 2,
     "name": "SQL",
     "slug": "sql",
     "category": "languages",
@@ -946,7 +946,7 @@
     "is_core": true
    },
    {
-    "id": 21,
+    "id": 12,
     "name": "Django",
     "slug": "django",
     "category": "backend",
@@ -954,7 +954,7 @@
     "is_core": true
    },
    {
-    "id": 23,
+    "id": 13,
     "name": "FastAPI",
     "slug": "fastapi",
     "category": "backend",
@@ -962,7 +962,7 @@
     "is_core": true
    },
    {
-    "id": 31,
+    "id": 22,
     "name": "React",
     "slug": "react",
     "category": "frontend",
@@ -970,7 +970,7 @@
     "is_core": true
    },
    {
-    "id": 38,
+    "id": 29,
     "name": "PostgreSQL",
     "slug": "postgresql",
     "category": "data",
@@ -978,7 +978,7 @@
     "is_core": true
    },
    {
-    "id": 49,
+    "id": 39,
     "name": "AI agents",
     "slug": "agentes-de-ia",
     "category": "ai",
@@ -986,7 +986,7 @@
     "is_core": true
    },
    {
-    "id": 12,
+    "id": 3,
     "name": "JavaScript",
     "slug": "javascript",
     "category": "languages",
@@ -994,7 +994,7 @@
     "is_core": false
    },
    {
-    "id": 13,
+    "id": 4,
     "name": "TypeScript",
     "slug": "typescript",
     "category": "languages",
@@ -1002,7 +1002,7 @@
     "is_core": false
    },
    {
-    "id": 14,
+    "id": 5,
     "name": "Java",
     "slug": "java",
     "category": "languages",
@@ -1010,7 +1010,7 @@
     "is_core": false
    },
    {
-    "id": 15,
+    "id": 6,
     "name": "PHP",
     "slug": "php",
     "category": "languages",
@@ -1018,7 +1018,7 @@
     "is_core": false
    },
    {
-    "id": 17,
+    "id": 7,
     "name": "C#",
     "slug": "csharp",
     "category": "languages",
@@ -1026,7 +1026,7 @@
     "is_core": false
    },
    {
-    "id": 19,
+    "id": 8,
     "name": "HTML5",
     "slug": "html5",
     "category": "languages",
@@ -1034,7 +1034,7 @@
     "is_core": false
    },
    {
-    "id": 20,
+    "id": 9,
     "name": "CSS3",
     "slug": "css3",
     "category": "languages",
@@ -1042,7 +1042,7 @@
     "is_core": false
    },
    {
-    "id": 18,
+    "id": 10,
     "name": "C++",
     "slug": "cplusplus",
     "category": "languages",
@@ -1050,7 +1050,7 @@
     "is_core": false
    },
    {
-    "id": 16,
+    "id": 11,
     "name": "Visual Basic",
     "slug": "visual-basic",
     "category": "languages",
@@ -1058,7 +1058,7 @@
     "is_core": false
    },
    {
-    "id": 22,
+    "id": 14,
     "name": "Django REST Framework",
     "slug": "django-rest-framework",
     "category": "backend",
@@ -1066,7 +1066,7 @@
     "is_core": false
    },
    {
-    "id": 28,
+    "id": 15,
     "name": "REST APIs",
     "slug": "apis-rest",
     "category": "backend",
@@ -1074,7 +1074,7 @@
     "is_core": false
    },
    {
-    "id": 27,
+    "id": 16,
     "name": "Node.js",
     "slug": "nodejs",
     "category": "backend",
@@ -1082,7 +1082,7 @@
     "is_core": false
    },
    {
-    "id": 26,
+    "id": 17,
     "name": "Spring Boot",
     "slug": "spring-boot",
     "category": "backend",
@@ -1090,7 +1090,7 @@
     "is_core": false
    },
    {
-    "id": 29,
+    "id": 18,
     "name": "GraphQL",
     "slug": "graphql",
     "category": "backend",
@@ -1098,7 +1098,7 @@
     "is_core": false
    },
    {
-    "id": 25,
+    "id": 19,
     "name": "Celery",
     "slug": "celery",
     "category": "backend",
@@ -1106,7 +1106,7 @@
     "is_core": false
    },
    {
-    "id": 30,
+    "id": 20,
     "name": "JWT",
     "slug": "jwt",
     "category": "backend",
@@ -1114,7 +1114,7 @@
     "is_core": false
    },
    {
-    "id": 24,
+    "id": 21,
     "name": "Symfony",
     "slug": "symfony",
     "category": "backend",
@@ -1122,7 +1122,7 @@
     "is_core": false
    },
    {
-    "id": 32,
+    "id": 23,
     "name": "Angular",
     "slug": "angular",
     "category": "frontend",
@@ -1130,7 +1130,7 @@
     "is_core": false
    },
    {
-    "id": 36,
+    "id": 24,
     "name": "React Native",
     "slug": "react-native",
     "category": "frontend",
@@ -1138,7 +1138,7 @@
     "is_core": false
    },
    {
-    "id": 37,
+    "id": 25,
     "name": "Flutter",
     "slug": "flutter",
     "category": "frontend",
@@ -1146,7 +1146,7 @@
     "is_core": false
    },
    {
-    "id": 33,
+    "id": 26,
     "name": "Sass / SCSS",
     "slug": "sass-scss",
     "category": "frontend",
@@ -1154,7 +1154,7 @@
     "is_core": false
    },
    {
-    "id": 34,
+    "id": 27,
     "name": "Bootstrap",
     "slug": "bootstrap",
     "category": "frontend",
@@ -1162,7 +1162,7 @@
     "is_core": false
    },
    {
-    "id": 35,
+    "id": 28,
     "name": "AJAX",
     "slug": "ajax",
     "category": "frontend",
@@ -1170,7 +1170,7 @@
     "is_core": false
    },
    {
-    "id": 39,
+    "id": 30,
     "name": "MySQL",
     "slug": "mysql",
     "category": "data",
@@ -1178,7 +1178,7 @@
     "is_core": false
    },
    {
-    "id": 42,
+    "id": 31,
     "name": "MongoDB",
     "slug": "mongodb",
     "category": "data",
@@ -1186,7 +1186,7 @@
     "is_core": false
    },
    {
-    "id": 43,
+    "id": 32,
     "name": "Redis",
     "slug": "redis",
     "category": "data",
@@ -1194,7 +1194,7 @@
     "is_core": false
    },
    {
-    "id": 45,
+    "id": 33,
     "name": "Pandas",
     "slug": "pandas",
     "category": "data",
@@ -1202,7 +1202,7 @@
     "is_core": false
    },
    {
-    "id": 41,
+    "id": 34,
     "name": "SQLite",
     "slug": "sqlite",
     "category": "data",
@@ -1210,7 +1210,7 @@
     "is_core": false
    },
    {
-    "id": 44,
+    "id": 35,
     "name": "Firebase",
     "slug": "firebase",
     "category": "data",
@@ -1218,7 +1218,7 @@
     "is_core": false
    },
    {
-    "id": 40,
+    "id": 36,
     "name": "MariaDB",
     "slug": "mariadb",
     "category": "data",
@@ -1226,7 +1226,7 @@
     "is_core": false
    },
    {
-    "id": 46,
+    "id": 37,
     "name": "Power BI",
     "slug": "power-bi",
     "category": "data",
@@ -1234,7 +1234,7 @@
     "is_core": false
    },
    {
-    "id": 47,
+    "id": 38,
     "name": "Streamlit",
     "slug": "streamlit",
     "category": "data",
@@ -1242,7 +1242,7 @@
     "is_core": false
    },
    {
-    "id": 50,
+    "id": 40,
     "name": "LLM integration",
     "slug": "integracion-de-llms",
     "category": "ai",
@@ -1250,7 +1250,7 @@
     "is_core": false
    },
    {
-    "id": 48,
+    "id": 41,
     "name": "OpenAI API",
     "slug": "openai-api",
     "category": "ai",
@@ -1258,7 +1258,7 @@
     "is_core": false
    },
    {
-    "id": 51,
+    "id": 42,
     "name": "LangChain",
     "slug": "langchain",
     "category": "ai",
@@ -1266,7 +1266,7 @@
     "is_core": false
    },
    {
-    "id": 54,
+    "id": 43,
     "name": "Machine learning",
     "slug": "machine-learning",
     "category": "ai",
@@ -1274,7 +1274,7 @@
     "is_core": false
    },
    {
-    "id": 52,
+    "id": 44,
     "name": "Claude",
     "slug": "claude",
     "category": "ai",
@@ -1282,7 +1282,7 @@
     "is_core": false
    },
    {
-    "id": 53,
+    "id": 45,
     "name": "ChatGPT",
     "slug": "chatgpt",
     "category": "ai",
@@ -1290,7 +1290,7 @@
     "is_core": false
    },
    {
-    "id": 57,
+    "id": 46,
     "name": "Docker",
     "slug": "docker",
     "category": "tools",
@@ -1298,7 +1298,7 @@
     "is_core": false
    },
    {
-    "id": 55,
+    "id": 47,
     "name": "Git",
     "slug": "git",
     "category": "tools",
@@ -1306,7 +1306,7 @@
     "is_core": false
    },
    {
-    "id": 60,
+    "id": 48,
     "name": "AWS",
     "slug": "aws",
     "category": "tools",
@@ -1314,7 +1314,7 @@
     "is_core": false
    },
    {
-    "id": 58,
+    "id": 49,
     "name": "Linux",
     "slug": "linux",
     "category": "tools",
@@ -1322,7 +1322,7 @@
     "is_core": false
    },
    {
-    "id": 56,
+    "id": 50,
     "name": "GitHub",
     "slug": "github",
     "category": "tools",
@@ -1330,7 +1330,7 @@
     "is_core": false
    },
    {
-    "id": 61,
+    "id": 51,
     "name": "Azure",
     "slug": "azure",
     "category": "tools",
@@ -1338,7 +1338,7 @@
     "is_core": false
    },
    {
-    "id": 62,
+    "id": 52,
     "name": "GCP",
     "slug": "gcp",
     "category": "tools",
@@ -1346,7 +1346,7 @@
     "is_core": false
    },
    {
-    "id": 59,
+    "id": 53,
     "name": "Nginx",
     "slug": "nginx",
     "category": "tools",
@@ -1354,7 +1354,7 @@
     "is_core": false
    },
    {
-    "id": 63,
+    "id": 54,
     "name": "Jira",
     "slug": "jira",
     "category": "tools",
@@ -1362,7 +1362,7 @@
     "is_core": false
    },
    {
-    "id": 65,
+    "id": 55,
     "name": "SSL certificates",
     "slug": "certificados-ssl",
     "category": "tools",
@@ -1370,7 +1370,7 @@
     "is_core": false
    },
    {
-    "id": 64,
+    "id": 56,
     "name": "Notion",
     "slug": "notion",
     "category": "tools",
@@ -1378,7 +1378,7 @@
     "is_core": false
    },
    {
-    "id": 71,
+    "id": 57,
     "name": "Software testing",
     "slug": "pruebas-de-software",
     "category": "practices",
@@ -1386,7 +1386,7 @@
     "is_core": false
    },
    {
-    "id": 74,
+    "id": 58,
     "name": "Scrum",
     "slug": "scrum",
     "category": "practices",
@@ -1394,7 +1394,7 @@
     "is_core": false
    },
    {
-    "id": 67,
+    "id": 59,
     "name": "SOLID principles",
     "slug": "principios-solid",
     "category": "practices",
@@ -1402,7 +1402,7 @@
     "is_core": false
    },
    {
-    "id": 68,
+    "id": 60,
     "name": "Clean code",
     "slug": "codigo-limpio",
     "category": "practices",
@@ -1410,7 +1410,7 @@
     "is_core": false
    },
    {
-    "id": 66,
+    "id": 61,
     "name": "Object-oriented programming",
     "slug": "programacion-orientada-a-objetos",
     "category": "practices",
@@ -1418,7 +1418,7 @@
     "is_core": false
    },
    {
-    "id": 73,
+    "id": 62,
     "name": "Distributed systems",
     "slug": "sistemas-distribuidos",
     "category": "practices",
@@ -1426,7 +1426,7 @@
     "is_core": false
    },
    {
-    "id": 69,
+    "id": 63,
     "name": "Secure coding",
     "slug": "desarrollo-seguro",
     "category": "practices",
@@ -1434,7 +1434,7 @@
     "is_core": false
    },
    {
-    "id": 72,
+    "id": 64,
     "name": "Code review",
     "slug": "revision-de-codigo",
     "category": "practices",
@@ -1442,7 +1442,7 @@
     "is_core": false
    },
    {
-    "id": 70,
+    "id": 65,
     "name": "MVC pattern",
     "slug": "patron-mvc",
     "category": "practices",
@@ -1450,7 +1450,7 @@
     "is_core": false
    },
    {
-    "id": 75,
+    "id": 66,
     "name": "Kanban",
     "slug": "kanban",
     "category": "practices",
@@ -1458,7 +1458,7 @@
     "is_core": false
    },
    {
-    "id": 76,
+    "id": 67,
     "name": "Design Thinking",
     "slug": "design-thinking",
     "category": "practices",
@@ -1468,7 +1468,7 @@
   ],
   "projects": [
    {
-    "id": 8,
+    "id": 1,
     "title": "Habitare",
     "slug": "habitare",
     "summary": "Platform for managing residential complexes: visitors, packages, requests and complaints, common-area bookings, parking lotteries and billing, serving multiple complexes from a single deployment.",
@@ -1492,7 +1492,7 @@
     "featured": true
    },
    {
-    "id": 1,
+    "id": 2,
     "title": "BrickByBrick",
     "slug": "brickbybrick",
     "summary": "Platform for donating surplus construction materials in Bogotá: it connects builders with families and small businesses, with delivery tracking and PDF tax certificates.",
@@ -1693,7 +1693,7 @@
     "hours": null,
     "credential_id": "LF-rvet3v32qn",
     "credential_url": "",
-    "file": "/media/certificates/lfd121-developing-secure-software.png"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/lfd121-developing-secure-software.png"
    },
    {
     "id": 1,
@@ -1704,7 +1704,7 @@
     "hours": null,
     "credential_id": "01KM8NF7W981TG00725NTPYKGM",
     "credential_url": "",
-    "file": "/media/certificates/enterprise-full-stack-spring-angular.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/enterprise-full-stack-spring-angular.jpg"
    },
    {
     "id": 8,
@@ -1715,7 +1715,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-gestion-amenazas-ciberneticas.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-gestion-amenazas-ciberneticas.jpg"
    },
    {
     "id": 9,
@@ -1726,7 +1726,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/ibm-enterprise-design-thinking.png"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/ibm-enterprise-design-thinking.png"
    },
    {
     "id": 10,
@@ -1737,7 +1737,7 @@
     "hours": null,
     "credential_id": "1021290",
     "credential_url": "",
-    "file": "/media/certificates/scrum-fundamentals-certified.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/scrum-fundamentals-certified.jpg"
    },
    {
     "id": 11,
@@ -1748,7 +1748,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-ccna-switching-routing-wireless.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-ccna-switching-routing-wireless.jpg"
    },
    {
     "id": 12,
@@ -1759,7 +1759,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-ccna-introduction-to-networks.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-ccna-introduction-to-networks.jpg"
    },
    {
     "id": 13,
@@ -1770,29 +1770,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-ndg-linux-unhatched.jpg"
-   },
-   {
-    "id": 4,
-    "name": "Android Mobile App Development",
-    "issuer": "MinTIC",
-    "category": "development",
-    "issued": "2021-12-01",
-    "hours": null,
-    "credential_id": "",
-    "credential_url": "",
-    "file": "/media/certificates/mintic-android.jpg"
-   },
-   {
-    "id": 2,
-    "name": "Misión TIC 2022 — Full track",
-    "issuer": "MinTIC / Universidad Sergio Arboleda",
-    "category": "development",
-    "issued": "2021-12-01",
-    "hours": 800,
-    "credential_id": "",
-    "credential_url": "",
-    "file": "/media/certificates/mision-tic-2022-ruta-completa.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-ndg-linux-unhatched.jpg"
    },
    {
     "id": 6,
@@ -1803,7 +1781,29 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/cisco-pcap-python.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/cisco-pcap-python.jpg"
+   },
+   {
+    "id": 4,
+    "name": "Android Mobile App Development",
+    "issuer": "MinTIC",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/mintic-android.jpg"
+   },
+   {
+    "id": 2,
+    "name": "Misión TIC 2022 — Full track",
+    "issuer": "MinTIC / Universidad Sergio Arboleda",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": 800,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/mision-tic-2022-ruta-completa.jpg"
    },
    {
     "id": 3,
@@ -1814,7 +1814,7 @@
     "hours": 200,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/mision-tic-java.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/mision-tic-java.jpg"
    },
    {
     "id": 5,
@@ -1825,7 +1825,7 @@
     "hours": null,
     "credential_id": "",
     "credential_url": "",
-    "file": "/media/certificates/mintic-python.jpg"
+    "file": "https://stfuken404.blob.core.windows.net/media/certificates/mintic-python.jpg"
    }
   ]
  }
