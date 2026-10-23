@@ -1,0 +1,1832 @@
+{
+ "es": {
+  "profile": {
+   "name": "Maycol Fuquene",
+   "role": "Ingeniero de Software · Backend / Full Stack",
+   "tagline": "Construyo servicios backend e integraciones entre sistemas con Python y Django, y llevo modelos de lenguaje a soluciones reales de automatización.",
+   "bio": "Ingeniero de Software enfocado en backend con Python. Construyo servicios y APIs REST con Django y Django REST Framework, conecto sistemas entre sí y proceso datos con SQL y Pandas sobre bases de datos relacionales. Integro modelos de lenguaje en soluciones reales: desarrollo agentes de IA con OpenAI que automatizan procesos de negocio. Trabajo de la mano de los clientes para convertir requerimientos en software que funciona, y complemento mi stack con React en el frontend y una base sólida en Java y Spring Boot.",
+   "focus": "Backend, integraciones e IA aplicada",
+   "languages": "Español nativo · Inglés avanzado",
+   "location": "Bogotá, Colombia",
+   "email": "maycolfuquene.dev@outlook.com",
+   "github": "https://github.com/fuken404",
+   "linkedin": "https://www.linkedin.com/in/maycol-fuquene/",
+   "available": true
+  },
+  "skills": [
+   {
+    "id": 10,
+    "name": "Python",
+    "slug": "python",
+    "category": "languages",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 11,
+    "name": "SQL",
+    "slug": "sql",
+    "category": "languages",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 21,
+    "name": "Django",
+    "slug": "django",
+    "category": "backend",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 23,
+    "name": "FastAPI",
+    "slug": "fastapi",
+    "category": "backend",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 31,
+    "name": "React",
+    "slug": "react",
+    "category": "frontend",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 38,
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "category": "data",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 49,
+    "name": "Agentes de IA",
+    "slug": "agentes-de-ia",
+    "category": "ai",
+    "level": null,
+    "is_core": true
+   },
+   {
+    "id": 12,
+    "name": "JavaScript",
+    "slug": "javascript",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 13,
+    "name": "TypeScript",
+    "slug": "typescript",
+    "category": "languages",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 14,
+    "name": "Java",
+    "slug": "java",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 15,
+    "name": "PHP",
+    "slug": "php",
+    "category": "languages",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 17,
+    "name": "C#",
+    "slug": "csharp",
+    "category": "languages",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 19,
+    "name": "HTML5",
+    "slug": "html5",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 20,
+    "name": "CSS3",
+    "slug": "css3",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 18,
+    "name": "C++",
+    "slug": "cplusplus",
+    "category": "languages",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 16,
+    "name": "Visual Basic",
+    "slug": "visual-basic",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 22,
+    "name": "Django REST Framework",
+    "slug": "django-rest-framework",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 28,
+    "name": "APIs REST",
+    "slug": "apis-rest",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 27,
+    "name": "Node.js",
+    "slug": "nodejs",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 26,
+    "name": "Spring Boot",
+    "slug": "spring-boot",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 29,
+    "name": "GraphQL",
+    "slug": "graphql",
+    "category": "backend",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 25,
+    "name": "Celery",
+    "slug": "celery",
+    "category": "backend",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 30,
+    "name": "JWT",
+    "slug": "jwt",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 24,
+    "name": "Symfony",
+    "slug": "symfony",
+    "category": "backend",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 32,
+    "name": "Angular",
+    "slug": "angular",
+    "category": "frontend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 36,
+    "name": "React Native",
+    "slug": "react-native",
+    "category": "frontend",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 37,
+    "name": "Flutter",
+    "slug": "flutter",
+    "category": "frontend",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 33,
+    "name": "Sass / SCSS",
+    "slug": "sass-scss",
+    "category": "frontend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 34,
+    "name": "Bootstrap",
+    "slug": "bootstrap",
+    "category": "frontend",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 35,
+    "name": "AJAX",
+    "slug": "ajax",
+    "category": "frontend",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 39,
+    "name": "MySQL",
+    "slug": "mysql",
+    "category": "data",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 42,
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "category": "data",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 43,
+    "name": "Redis",
+    "slug": "redis",
+    "category": "data",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 45,
+    "name": "Pandas",
+    "slug": "pandas",
+    "category": "data",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 41,
+    "name": "SQLite",
+    "slug": "sqlite",
+    "category": "data",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 44,
+    "name": "Firebase",
+    "slug": "firebase",
+    "category": "data",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 40,
+    "name": "MariaDB",
+    "slug": "mariadb",
+    "category": "data",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 46,
+    "name": "Power BI",
+    "slug": "power-bi",
+    "category": "data",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 47,
+    "name": "Streamlit",
+    "slug": "streamlit",
+    "category": "data",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 50,
+    "name": "Integración de LLMs",
+    "slug": "integracion-de-llms",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 48,
+    "name": "OpenAI API",
+    "slug": "openai-api",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 51,
+    "name": "LangChain",
+    "slug": "langchain",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 54,
+    "name": "Machine learning",
+    "slug": "machine-learning",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 52,
+    "name": "Claude",
+    "slug": "claude",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 53,
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 57,
+    "name": "Docker",
+    "slug": "docker",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 55,
+    "name": "Git",
+    "slug": "git",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 60,
+    "name": "AWS",
+    "slug": "aws",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 58,
+    "name": "Linux",
+    "slug": "linux",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 56,
+    "name": "GitHub",
+    "slug": "github",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 61,
+    "name": "Azure",
+    "slug": "azure",
+    "category": "tools",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 62,
+    "name": "GCP",
+    "slug": "gcp",
+    "category": "tools",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 59,
+    "name": "Nginx",
+    "slug": "nginx",
+    "category": "tools",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 63,
+    "name": "Jira",
+    "slug": "jira",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 65,
+    "name": "Certificados SSL",
+    "slug": "certificados-ssl",
+    "category": "tools",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 64,
+    "name": "Notion",
+    "slug": "notion",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 71,
+    "name": "Pruebas de software",
+    "slug": "pruebas-de-software",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 74,
+    "name": "Scrum",
+    "slug": "scrum",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 67,
+    "name": "Principios SOLID",
+    "slug": "principios-solid",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 68,
+    "name": "Código limpio",
+    "slug": "codigo-limpio",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 66,
+    "name": "Programación orientada a objetos",
+    "slug": "programacion-orientada-a-objetos",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 73,
+    "name": "Sistemas distribuidos",
+    "slug": "sistemas-distribuidos",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 69,
+    "name": "Desarrollo seguro",
+    "slug": "desarrollo-seguro",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 72,
+    "name": "Revisión de código",
+    "slug": "revision-de-codigo",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 70,
+    "name": "Patrón MVC",
+    "slug": "patron-mvc",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 75,
+    "name": "Kanban",
+    "slug": "kanban",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 76,
+    "name": "Design Thinking",
+    "slug": "design-thinking",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   }
+  ],
+  "projects": [
+   {
+    "id": 8,
+    "title": "Habitare",
+    "slug": "habitare",
+    "summary": "Plataforma para administrar conjuntos residenciales: visitas, paquetes, PQRS, reservas de zonas comunes, sorteo de parqueaderos y facturación, con varios conjuntos en una sola instalación.",
+    "description": "API en FastAPI asíncrono con SQLAlchemy y Alembic, organizada en 19 módulos con control de acceso por roles, aislamiento de datos por conjunto y eventos con patrón outbox. Incluye un panel web en React + TypeScript para administración y portería, y apps móviles para residentes en Flutter y React Native.",
+    "stack": [
+     "Python",
+     "TypeScript",
+     "FastAPI",
+     "React",
+     "React Native",
+     "Flutter",
+     "PostgreSQL",
+     "Docker",
+     "SQLAlchemy",
+     "Alembic"
+    ],
+    "year": 2026,
+    "repo_url": "https://github.com/fuken404/Habitare",
+    "live_url": "",
+    "image": null,
+    "featured": true
+   },
+   {
+    "id": 1,
+    "title": "BrickByBrick",
+    "slug": "brickbybrick",
+    "summary": "Plataforma para donar materiales de construcción excedentes en Bogotá: conecta constructoras con familias y emprendimientos, con trazabilidad de entregas y constancias tributarias en PDF.",
+    "description": "Microservicios (autenticación, usuarios, materiales, eventos, publicaciones y notificaciones) detrás de un API Gateway; JWT con refresh tokens rotativos, chat y notificaciones en tiempo real con Socket.io, tareas programadas y panel de administración con métricas.",
+    "stack": [
+     "TypeScript",
+     "Node.js",
+     "JWT",
+     "Angular",
+     "PostgreSQL",
+     "Docker",
+     "Express",
+     "Prisma",
+     "Socket.io"
+    ],
+    "year": 2026,
+    "repo_url": "https://github.com/fuken404/BrickByBrick",
+    "live_url": "",
+    "image": null,
+    "featured": true
+   },
+   {
+    "id": 3,
+    "title": "DanteAI",
+    "slug": "dante-ai",
+    "summary": "Asistente personal en Telegram con memoria persistente: conversa por texto, notas de voz e imágenes usando Claude y Groq, y lee los enlaces que se le envían.",
+    "description": "Bot asíncrono con webhooks, memoria en PostgreSQL y despliegue en Fly.io con Docker.",
+    "stack": [
+     "Python",
+     "PostgreSQL",
+     "Claude",
+     "Docker",
+     "Groq",
+     "Telegram Bot API",
+     "Fly.io"
+    ],
+    "year": 2026,
+    "repo_url": "https://github.com/fuken404/DanteAI",
+    "live_url": "",
+    "image": null,
+    "featured": true
+   },
+   {
+    "id": 4,
+    "title": "Sorora",
+    "slug": "sorora",
+    "summary": "Plataforma web de alerta y protección para mujeres basada en microservicios, con módulos de albergues y alertas en tiempo real.",
+    "description": "",
+    "stack": [
+     "Python",
+     "FastAPI",
+     "MongoDB",
+     "Docker"
+    ],
+    "year": 2025,
+    "repo_url": "https://github.com/fuken404/Sorora",
+    "live_url": "",
+    "image": null,
+    "featured": false
+   },
+   {
+    "id": 5,
+    "title": "Sistema experto de diagnóstico",
+    "slug": "sistema-experto-diagnostico",
+    "summary": "Sistema experto que diagnostica fallas de hardware en equipos de cómputo a partir de reglas, con autenticación por roles y un panel para crear nuevas reglas.",
+    "description": "",
+    "stack": [
+     "JavaScript",
+     "Node.js",
+     "JWT",
+     "PostgreSQL",
+     "Express",
+     "Sequelize"
+    ],
+    "year": 2025,
+    "repo_url": "https://github.com/fuken404/DiagnosticoMantenimientoEquiposComputo",
+    "live_url": "",
+    "image": null,
+    "featured": false
+   },
+   {
+    "id": 6,
+    "title": "PlantIA",
+    "slug": "plantia",
+    "summary": "API serverless que lee la humedad y temperatura de una planta desde Firestore y genera recomendaciones de cuidado con IA.",
+    "description": "",
+    "stack": [
+     "Python",
+     "FastAPI",
+     "Firebase",
+     "Vercel"
+    ],
+    "year": 2025,
+    "repo_url": "https://github.com/fuken404/PlantIA",
+    "live_url": "",
+    "image": null,
+    "featured": false
+   },
+   {
+    "id": 7,
+    "title": "App de recordatorios",
+    "slug": "app-recordatorios",
+    "summary": "App para iOS de recordatorios recurrentes con categorías y notificaciones locales, sin servidor ni cuenta.",
+    "description": "",
+    "stack": [
+     "TypeScript",
+     "React Native"
+    ],
+    "year": 2026,
+    "repo_url": "https://github.com/fuken404/AppRecordatorios",
+    "live_url": "",
+    "image": null,
+    "featured": false
+   }
+  ],
+  "experience": [
+   {
+    "id": 1,
+    "company": "Talent Advisor Consulting",
+    "position": "Consultor de Implementación",
+    "location": "Bogotá, Colombia · Híbrido",
+    "start": "2025-11-01",
+    "end": null,
+    "description": "Desarrollo de servicios backend e integraciones a partir de requerimientos de negocio, acompañando a clientes en la implementación de sistemas ERP/CRM.",
+    "highlights": [
+     "Desarrollo y mantengo servicios backend con Python y Django.",
+     "Integré la plataforma web de la compañía (PHP/Symfony) con el ERP interno (Python/Django) mediante APIs REST.",
+     "Construyo procesos de extracción, transformación y carga de datos con SQL y Pandas.",
+     "Desarrollé agentes de IA con OpenAI que automatizan la elaboración de descriptivos de cargos.",
+     "Implementé un modelo de regresión lineal para la proyección salarial del sistema de gestión salarial.",
+     "Uso Claude y ChatGPT en el flujo de desarrollo para acelerar implementación, depuración y documentación.",
+     "Trabajo con Scrum en sprints de dos semanas: defino criterios de aceptación y gestiono el trabajo en Jira."
+    ]
+   },
+   {
+    "id": 2,
+    "company": "Freelance",
+    "position": "Desarrollador Backend",
+    "location": "Remoto",
+    "start": "2021-02-01",
+    "end": null,
+    "description": "Diseño e implementación de arquitecturas, APIs y sistemas seguros para aplicaciones web y móviles, con soluciones a la medida que priorizan escalabilidad, rendimiento y mantenimiento.",
+    "highlights": [
+     "APIs REST y GraphQL con autenticación JWT.",
+     "Backends con FastAPI, Spring Boot y Node.js sobre PostgreSQL, MySQL, MongoDB y Firebase.",
+     "Despliegue de servicios en contenedores con Docker."
+    ]
+   },
+   {
+    "id": 3,
+    "company": "AR Construcciones",
+    "position": "Promotor de Ventas",
+    "location": "Cajicá y Sopó, Colombia",
+    "start": "2022-05-01",
+    "end": "2025-10-01",
+    "description": "Asesoría comercial en proyectos de vivienda y administración de los sistemas que los soportan.",
+    "highlights": [
+     "Administré sistemas CRM y ERP (SINCO, SmartHome) y las plataformas fiduciarias de los proyectos inmobiliarios.",
+     "Coordiné entre clientes, gerencia y entidades financieras durante el ciclo completo de venta."
+    ]
+   },
+   {
+    "id": 4,
+    "company": "D&M Soltec",
+    "position": "Técnico en Sistemas",
+    "location": "Cajicá, Colombia",
+    "start": "2020-11-01",
+    "end": "2022-02-01",
+    "description": "Mantenimiento preventivo y correctivo de equipos de cómputo, servicio técnico y asesoría comercial en productos tecnológicos.",
+    "highlights": []
+   }
+  ],
+  "education": [
+   {
+    "id": 1,
+    "institution": "Universidad Manuela Beltrán",
+    "degree": "Ingeniería de Software",
+    "location": "Bogotá, Colombia",
+    "start": "2021-01-01",
+    "end": "2026-01-01"
+   },
+   {
+    "id": 2,
+    "institution": "SENA",
+    "degree": "Técnico en Sistemas",
+    "location": "",
+    "start": "2019-02-01",
+    "end": "2020-12-01"
+   }
+  ],
+  "certifications": [
+   {
+    "id": 7,
+    "name": "Developing Secure Software (LFD121)",
+    "issuer": "Linux Foundation & OpenSSF",
+    "category": "security",
+    "issued": "2026-05-01",
+    "hours": null,
+    "credential_id": "LF-rvet3v32qn",
+    "credential_url": "",
+    "file": "/media/certificates/lfd121-developing-secure-software.png"
+   },
+   {
+    "id": 1,
+    "name": "Enterprise Full Stack — Spring Boot 4 y Angular 21",
+    "issuer": "Dev Senior Code",
+    "category": "development",
+    "issued": "2026-03-01",
+    "hours": null,
+    "credential_id": "01KM8NF7W981TG00725NTPYKGM",
+    "credential_url": "",
+    "file": "/media/certificates/enterprise-full-stack-spring-angular.jpg"
+   },
+   {
+    "id": 8,
+    "name": "Gestión de Amenazas Cibernéticas",
+    "issuer": "Cisco Networking Academy",
+    "category": "security",
+    "issued": "2026-03-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-gestion-amenazas-ciberneticas.jpg"
+   },
+   {
+    "id": 9,
+    "name": "Enterprise Design Thinking Practitioner",
+    "issuer": "IBM SkillsBuild",
+    "category": "agile",
+    "issued": "2025-08-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/ibm-enterprise-design-thinking.png"
+   },
+   {
+    "id": 10,
+    "name": "Scrum Fundamentals Certified (SFC™)",
+    "issuer": "SCRUMstudy",
+    "category": "agile",
+    "issued": "2024-03-01",
+    "hours": null,
+    "credential_id": "1021290",
+    "credential_url": "",
+    "file": "/media/certificates/scrum-fundamentals-certified.jpg"
+   },
+   {
+    "id": 11,
+    "name": "CCNAv7: Switching, Routing y Wireless Essentials",
+    "issuer": "Cisco Networking Academy",
+    "category": "infra",
+    "issued": "2023-11-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-ccna-switching-routing-wireless.jpg"
+   },
+   {
+    "id": 12,
+    "name": "CCNAv7: Introduction to Networks",
+    "issuer": "Cisco Networking Academy",
+    "category": "infra",
+    "issued": "2023-06-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-ccna-introduction-to-networks.jpg"
+   },
+   {
+    "id": 13,
+    "name": "NDG Linux Unhatched",
+    "issuer": "Cisco Networking Academy",
+    "category": "infra",
+    "issued": "2022-04-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-ndg-linux-unhatched.jpg"
+   },
+   {
+    "id": 4,
+    "name": "Desarrollo de Aplicaciones Móviles Android",
+    "issuer": "MinTIC",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/mintic-android.jpg"
+   },
+   {
+    "id": 2,
+    "name": "Misión TIC 2022 — Ruta completa",
+    "issuer": "MinTIC / Universidad Sergio Arboleda",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": 800,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/mision-tic-2022-ruta-completa.jpg"
+   },
+   {
+    "id": 6,
+    "name": "PCAP — Fundamentos de Programación en Python",
+    "issuer": "Cisco Networking Academy",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-pcap-python.jpg"
+   },
+   {
+    "id": 3,
+    "name": "Misión TIC — Desarrollo de Software con Java",
+    "issuer": "MinTIC / Universidad Sergio Arboleda",
+    "category": "development",
+    "issued": "2021-11-01",
+    "hours": 200,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/mision-tic-java.jpg"
+   },
+   {
+    "id": 5,
+    "name": "Desarrollo de Software con Python",
+    "issuer": "MinTIC",
+    "category": "development",
+    "issued": "2021-08-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/mintic-python.jpg"
+   }
+  ]
+ },
+ "en": {
+  "profile": {
+   "name": "Maycol Fuquene",
+   "role": "Software Engineer · Backend / Full Stack",
+   "tagline": "I build backend services and system integrations with Python and Django, and bring language models into real automation solutions.",
+   "bio": "Software Engineer focused on backend development with Python. I build services and REST APIs with Django and Django REST Framework, connect systems to each other, and process data with SQL and Pandas on relational databases. I bring language models into real solutions, building OpenAI-powered AI agents that automate business processes. I work closely with clients to turn requirements into software that works, and I round out my stack with React on the frontend and a solid foundation in Java and Spring Boot.",
+   "focus": "Backend, integrations and applied AI",
+   "languages": "Native Spanish · Advanced English",
+   "location": "Bogotá, Colombia",
+   "email": "maycolfuquene.dev@outlook.com",
+   "github": "https://github.com/fuken404",
+   "linkedin": "https://www.linkedin.com/in/maycol-fuquene/",
+   "available": true
+  },
+  "skills": [
+   {
+    "id": 10,
+    "name": "Python",
+    "slug": "python",
+    "category": "languages",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 11,
+    "name": "SQL",
+    "slug": "sql",
+    "category": "languages",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 21,
+    "name": "Django",
+    "slug": "django",
+    "category": "backend",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 23,
+    "name": "FastAPI",
+    "slug": "fastapi",
+    "category": "backend",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 31,
+    "name": "React",
+    "slug": "react",
+    "category": "frontend",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 38,
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "category": "data",
+    "level": 4,
+    "is_core": true
+   },
+   {
+    "id": 49,
+    "name": "AI agents",
+    "slug": "agentes-de-ia",
+    "category": "ai",
+    "level": null,
+    "is_core": true
+   },
+   {
+    "id": 12,
+    "name": "JavaScript",
+    "slug": "javascript",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 13,
+    "name": "TypeScript",
+    "slug": "typescript",
+    "category": "languages",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 14,
+    "name": "Java",
+    "slug": "java",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 15,
+    "name": "PHP",
+    "slug": "php",
+    "category": "languages",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 17,
+    "name": "C#",
+    "slug": "csharp",
+    "category": "languages",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 19,
+    "name": "HTML5",
+    "slug": "html5",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 20,
+    "name": "CSS3",
+    "slug": "css3",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 18,
+    "name": "C++",
+    "slug": "cplusplus",
+    "category": "languages",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 16,
+    "name": "Visual Basic",
+    "slug": "visual-basic",
+    "category": "languages",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 22,
+    "name": "Django REST Framework",
+    "slug": "django-rest-framework",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 28,
+    "name": "REST APIs",
+    "slug": "apis-rest",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 27,
+    "name": "Node.js",
+    "slug": "nodejs",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 26,
+    "name": "Spring Boot",
+    "slug": "spring-boot",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 29,
+    "name": "GraphQL",
+    "slug": "graphql",
+    "category": "backend",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 25,
+    "name": "Celery",
+    "slug": "celery",
+    "category": "backend",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 30,
+    "name": "JWT",
+    "slug": "jwt",
+    "category": "backend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 24,
+    "name": "Symfony",
+    "slug": "symfony",
+    "category": "backend",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 32,
+    "name": "Angular",
+    "slug": "angular",
+    "category": "frontend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 36,
+    "name": "React Native",
+    "slug": "react-native",
+    "category": "frontend",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 37,
+    "name": "Flutter",
+    "slug": "flutter",
+    "category": "frontend",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 33,
+    "name": "Sass / SCSS",
+    "slug": "sass-scss",
+    "category": "frontend",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 34,
+    "name": "Bootstrap",
+    "slug": "bootstrap",
+    "category": "frontend",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 35,
+    "name": "AJAX",
+    "slug": "ajax",
+    "category": "frontend",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 39,
+    "name": "MySQL",
+    "slug": "mysql",
+    "category": "data",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 42,
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "category": "data",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 43,
+    "name": "Redis",
+    "slug": "redis",
+    "category": "data",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 45,
+    "name": "Pandas",
+    "slug": "pandas",
+    "category": "data",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 41,
+    "name": "SQLite",
+    "slug": "sqlite",
+    "category": "data",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 44,
+    "name": "Firebase",
+    "slug": "firebase",
+    "category": "data",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 40,
+    "name": "MariaDB",
+    "slug": "mariadb",
+    "category": "data",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 46,
+    "name": "Power BI",
+    "slug": "power-bi",
+    "category": "data",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 47,
+    "name": "Streamlit",
+    "slug": "streamlit",
+    "category": "data",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 50,
+    "name": "LLM integration",
+    "slug": "integracion-de-llms",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 48,
+    "name": "OpenAI API",
+    "slug": "openai-api",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 51,
+    "name": "LangChain",
+    "slug": "langchain",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 54,
+    "name": "Machine learning",
+    "slug": "machine-learning",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 52,
+    "name": "Claude",
+    "slug": "claude",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 53,
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "category": "ai",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 57,
+    "name": "Docker",
+    "slug": "docker",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 55,
+    "name": "Git",
+    "slug": "git",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 60,
+    "name": "AWS",
+    "slug": "aws",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 58,
+    "name": "Linux",
+    "slug": "linux",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 56,
+    "name": "GitHub",
+    "slug": "github",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 61,
+    "name": "Azure",
+    "slug": "azure",
+    "category": "tools",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 62,
+    "name": "GCP",
+    "slug": "gcp",
+    "category": "tools",
+    "level": 2,
+    "is_core": false
+   },
+   {
+    "id": 59,
+    "name": "Nginx",
+    "slug": "nginx",
+    "category": "tools",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 63,
+    "name": "Jira",
+    "slug": "jira",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 65,
+    "name": "SSL certificates",
+    "slug": "certificados-ssl",
+    "category": "tools",
+    "level": 3,
+    "is_core": false
+   },
+   {
+    "id": 64,
+    "name": "Notion",
+    "slug": "notion",
+    "category": "tools",
+    "level": 4,
+    "is_core": false
+   },
+   {
+    "id": 71,
+    "name": "Software testing",
+    "slug": "pruebas-de-software",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 74,
+    "name": "Scrum",
+    "slug": "scrum",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 67,
+    "name": "SOLID principles",
+    "slug": "principios-solid",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 68,
+    "name": "Clean code",
+    "slug": "codigo-limpio",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 66,
+    "name": "Object-oriented programming",
+    "slug": "programacion-orientada-a-objetos",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 73,
+    "name": "Distributed systems",
+    "slug": "sistemas-distribuidos",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 69,
+    "name": "Secure coding",
+    "slug": "desarrollo-seguro",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 72,
+    "name": "Code review",
+    "slug": "revision-de-codigo",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 70,
+    "name": "MVC pattern",
+    "slug": "patron-mvc",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 75,
+    "name": "Kanban",
+    "slug": "kanban",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   },
+   {
+    "id": 76,
+    "name": "Design Thinking",
+    "slug": "design-thinking",
+    "category": "practices",
+    "level": null,
+    "is_core": false
+   }
+  ],
+  "projects": [
+   {
+    "id": 8,
+    "title": "Habitare",
+    "slug": "habitare",
+    "summary": "Platform for managing residential complexes: visitors, packages, requests and complaints, common-area bookings, parking lotteries and billing, serving multiple complexes from a single deployment.",
+    "description": "Async FastAPI API with SQLAlchemy and Alembic, organized into 19 modules with role-based access control, per-complex data isolation and outbox-pattern events. Includes a React + TypeScript web panel for management and front desk, and resident mobile apps in Flutter and React Native.",
+    "stack": [
+     "Python",
+     "TypeScript",
+     "FastAPI",
+     "React",
+     "React Native",
+     "Flutter",
+     "PostgreSQL",
+     "Docker",
+     "SQLAlchemy",
+     "Alembic"
+    ],
+    "year": 2026,
+    "repo_url": "https://github.com/fuken404/Habitare",
+    "live_url": "",
+    "image": null,
+    "featured": true
+   },
+   {
+    "id": 1,
+    "title": "BrickByBrick",
+    "slug": "brickbybrick",
+    "summary": "Platform for donating surplus construction materials in Bogotá: it connects builders with families and small businesses, with delivery tracking and PDF tax certificates.",
+    "description": "Microservices (auth, users, materials, events, posts and notifications) behind an API Gateway; JWT with rotating refresh tokens, real-time chat and notifications with Socket.io, scheduled jobs and an admin dashboard with metrics.",
+    "stack": [
+     "TypeScript",
+     "Node.js",
+     "JWT",
+     "Angular",
+     "PostgreSQL",
+     "Docker",
+     "Express",
+     "Prisma",
+     "Socket.io"
+    ],
+    "year": 2026,
+    "repo_url": "https://github.com/fuken404/BrickByBrick",
+    "live_url": "",
+    "image": null,
+    "featured": true
+   },
+   {
+    "id": 3,
+    "title": "DanteAI",
+    "slug": "dante-ai",
+    "summary": "Personal Telegram assistant with persistent memory: it chats through text, voice notes and images using Claude and Groq, and reads the links it is sent.",
+    "description": "Async bot with webhooks, memory stored in PostgreSQL and deployed on Fly.io with Docker.",
+    "stack": [
+     "Python",
+     "PostgreSQL",
+     "Claude",
+     "Docker",
+     "Groq",
+     "Telegram Bot API",
+     "Fly.io"
+    ],
+    "year": 2026,
+    "repo_url": "https://github.com/fuken404/DanteAI",
+    "live_url": "",
+    "image": null,
+    "featured": true
+   },
+   {
+    "id": 4,
+    "title": "Sorora",
+    "slug": "sorora",
+    "summary": "Alert and protection web platform for women built on microservices, with shelter and real-time alert modules.",
+    "description": "",
+    "stack": [
+     "Python",
+     "FastAPI",
+     "MongoDB",
+     "Docker"
+    ],
+    "year": 2025,
+    "repo_url": "https://github.com/fuken404/Sorora",
+    "live_url": "",
+    "image": null,
+    "featured": false
+   },
+   {
+    "id": 5,
+    "title": "Hardware diagnosis expert system",
+    "slug": "sistema-experto-diagnostico",
+    "summary": "Rule-based expert system that diagnoses computer hardware faults, with role-based authentication and a panel for creating new rules.",
+    "description": "",
+    "stack": [
+     "JavaScript",
+     "Node.js",
+     "JWT",
+     "PostgreSQL",
+     "Express",
+     "Sequelize"
+    ],
+    "year": 2025,
+    "repo_url": "https://github.com/fuken404/DiagnosticoMantenimientoEquiposComputo",
+    "live_url": "",
+    "image": null,
+    "featured": false
+   },
+   {
+    "id": 6,
+    "title": "PlantIA",
+    "slug": "plantia",
+    "summary": "Serverless API that reads a plant's humidity and temperature from Firestore and generates AI care recommendations.",
+    "description": "",
+    "stack": [
+     "Python",
+     "FastAPI",
+     "Firebase",
+     "Vercel"
+    ],
+    "year": 2025,
+    "repo_url": "https://github.com/fuken404/PlantIA",
+    "live_url": "",
+    "image": null,
+    "featured": false
+   },
+   {
+    "id": 7,
+    "title": "Reminders app",
+    "slug": "app-recordatorios",
+    "summary": "iOS app for recurring reminders with categories and local notifications, no server or account needed.",
+    "description": "",
+    "stack": [
+     "TypeScript",
+     "React Native"
+    ],
+    "year": 2026,
+    "repo_url": "https://github.com/fuken404/AppRecordatorios",
+    "live_url": "",
+    "image": null,
+    "featured": false
+   }
+  ],
+  "experience": [
+   {
+    "id": 1,
+    "company": "Talent Advisor Consulting",
+    "position": "Implementation Consultant",
+    "location": "Bogotá, Colombia · Hybrid",
+    "start": "2025-11-01",
+    "end": null,
+    "description": "Backend services and integrations built from business requirements, supporting clients through ERP/CRM implementations.",
+    "highlights": [
+     "I build and maintain backend services with Python and Django.",
+     "Integrated the company web platform (PHP/Symfony) with the internal ERP (Python/Django) through REST APIs.",
+     "I build extract, transform and load processes with SQL and Pandas.",
+     "Built OpenAI-powered AI agents that automate writing job descriptions.",
+     "Implemented a linear regression model for salary projection in the compensation system.",
+     "I use Claude and ChatGPT in my development workflow to speed up implementation, debugging and documentation.",
+     "I work in two-week Scrum sprints, defining acceptance criteria and managing work in Jira."
+    ]
+   },
+   {
+    "id": 2,
+    "company": "Freelance",
+    "position": "Backend Developer",
+    "location": "Remote",
+    "start": "2021-02-01",
+    "end": null,
+    "description": "Design and implementation of architectures, APIs and secure systems for web and mobile apps, with custom solutions focused on scalability, performance and maintainability.",
+    "highlights": [
+     "REST and GraphQL APIs with JWT authentication.",
+     "Backends with FastAPI, Spring Boot and Node.js on PostgreSQL, MySQL, MongoDB and Firebase.",
+     "Containerized service deployment with Docker."
+    ]
+   },
+   {
+    "id": 3,
+    "company": "AR Construcciones",
+    "position": "Sales Promoter",
+    "location": "Cajicá and Sopó, Colombia",
+    "start": "2022-05-01",
+    "end": "2025-10-01",
+    "description": "Sales advisory for housing projects and administration of the systems behind them.",
+    "highlights": [
+     "Administered CRM and ERP systems (SINCO, SmartHome) and the fiduciary platforms of the real estate projects.",
+     "Coordinated clients, management and financial institutions across the full sales cycle."
+    ]
+   },
+   {
+    "id": 4,
+    "company": "D&M Soltec",
+    "position": "Systems Technician",
+    "location": "Cajicá, Colombia",
+    "start": "2020-11-01",
+    "end": "2022-02-01",
+    "description": "Preventive and corrective computer maintenance, technical support and sales advice on technology products.",
+    "highlights": []
+   }
+  ],
+  "education": [
+   {
+    "id": 1,
+    "institution": "Universidad Manuela Beltrán",
+    "degree": "Software Engineering",
+    "location": "Bogotá, Colombia",
+    "start": "2021-01-01",
+    "end": "2026-01-01"
+   },
+   {
+    "id": 2,
+    "institution": "SENA",
+    "degree": "Systems Technician",
+    "location": "",
+    "start": "2019-02-01",
+    "end": "2020-12-01"
+   }
+  ],
+  "certifications": [
+   {
+    "id": 7,
+    "name": "Developing Secure Software (LFD121)",
+    "issuer": "Linux Foundation & OpenSSF",
+    "category": "security",
+    "issued": "2026-05-01",
+    "hours": null,
+    "credential_id": "LF-rvet3v32qn",
+    "credential_url": "",
+    "file": "/media/certificates/lfd121-developing-secure-software.png"
+   },
+   {
+    "id": 1,
+    "name": "Enterprise Full Stack — Spring Boot 4 & Angular 21",
+    "issuer": "Dev Senior Code",
+    "category": "development",
+    "issued": "2026-03-01",
+    "hours": null,
+    "credential_id": "01KM8NF7W981TG00725NTPYKGM",
+    "credential_url": "",
+    "file": "/media/certificates/enterprise-full-stack-spring-angular.jpg"
+   },
+   {
+    "id": 8,
+    "name": "Cyber Threat Management",
+    "issuer": "Cisco Networking Academy",
+    "category": "security",
+    "issued": "2026-03-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-gestion-amenazas-ciberneticas.jpg"
+   },
+   {
+    "id": 9,
+    "name": "Enterprise Design Thinking Practitioner",
+    "issuer": "IBM SkillsBuild",
+    "category": "agile",
+    "issued": "2025-08-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/ibm-enterprise-design-thinking.png"
+   },
+   {
+    "id": 10,
+    "name": "Scrum Fundamentals Certified (SFC™)",
+    "issuer": "SCRUMstudy",
+    "category": "agile",
+    "issued": "2024-03-01",
+    "hours": null,
+    "credential_id": "1021290",
+    "credential_url": "",
+    "file": "/media/certificates/scrum-fundamentals-certified.jpg"
+   },
+   {
+    "id": 11,
+    "name": "CCNAv7: Switching, Routing, and Wireless Essentials",
+    "issuer": "Cisco Networking Academy",
+    "category": "infra",
+    "issued": "2023-11-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-ccna-switching-routing-wireless.jpg"
+   },
+   {
+    "id": 12,
+    "name": "CCNAv7: Introduction to Networks",
+    "issuer": "Cisco Networking Academy",
+    "category": "infra",
+    "issued": "2023-06-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-ccna-introduction-to-networks.jpg"
+   },
+   {
+    "id": 13,
+    "name": "NDG Linux Unhatched",
+    "issuer": "Cisco Networking Academy",
+    "category": "infra",
+    "issued": "2022-04-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-ndg-linux-unhatched.jpg"
+   },
+   {
+    "id": 4,
+    "name": "Android Mobile App Development",
+    "issuer": "MinTIC",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/mintic-android.jpg"
+   },
+   {
+    "id": 2,
+    "name": "Misión TIC 2022 — Full track",
+    "issuer": "MinTIC / Universidad Sergio Arboleda",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": 800,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/mision-tic-2022-ruta-completa.jpg"
+   },
+   {
+    "id": 6,
+    "name": "PCAP — Programming Essentials in Python",
+    "issuer": "Cisco Networking Academy",
+    "category": "development",
+    "issued": "2021-12-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/cisco-pcap-python.jpg"
+   },
+   {
+    "id": 3,
+    "name": "Misión TIC — Software Development with Java",
+    "issuer": "MinTIC / Universidad Sergio Arboleda",
+    "category": "development",
+    "issued": "2021-11-01",
+    "hours": 200,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/mision-tic-java.jpg"
+   },
+   {
+    "id": 5,
+    "name": "Software Development with Python",
+    "issuer": "MinTIC",
+    "category": "development",
+    "issued": "2021-08-01",
+    "hours": null,
+    "credential_id": "",
+    "credential_url": "",
+    "file": "/media/certificates/mintic-python.jpg"
+   }
+  ]
+ }
+}

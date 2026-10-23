@@ -1,0 +1,67 @@
+/*
+ * Musgo = modo oscuro, Arcilla = modo claro.
+ * Todos los componentes usan solo estas variables: ajustar un modo es
+ * editar este archivo.
+ */
+
+:root {
+  --font-sans: 'Geist', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, monospace;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --gutter: clamp(16px, 4vw, 48px);
+  --max: 1180px;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+/* Modo oscuro · Musgo — grafito con verde salvia. */
+[data-theme='musgo'] {
+  color-scheme: dark;
+  --bg: #141618;
+  --bg-elev: #1b1e21;
+  --surface: #202427;
+  --line: #2d3236;
+  --line-strong: #3b4146;
+  --text: #e4e7e4;
+  --text-soft: #b4bab5;
+  --muted: #7f8782;
+  --accent: #93c49a;
+  --accent-strong: #b5e0b4;
+  --accent-soft: rgb(147 196 154 / .12);
+  --accent-ink: #0f1a12;
+  --accent-2: #5f8f6a;
+  --serif-accent: var(--accent);
+  --grid: rgb(255 255 255 / .028);
+  --tok-key: #93c49a;
+  --tok-str: #d9d3bd;
+  --tok-lit: #8fb3c9;
+  --tok-num: #e0b48a;
+  --shadow: 0 30px 60px -30px rgb(0 0 0 / .6);
+}
+
+/* Modo claro · Arcilla — papel beige, tinta azul marino y acentos café. */
+[data-theme='arcilla'] {
+  color-scheme: light;
+  --bg: #ede5d7;
+  --bg-elev: #f4eee3;
+  --surface: #f8f3ea;
+  --line: #d6cab5;
+  --line-strong: #bfae93;
+  --text: #1c2a3d;
+  --text-soft: #3b4859;
+  --muted: #76705f;
+  --accent: #2c4a72;
+  --accent-strong: #1d3657;
+  --accent-soft: rgb(44 74 114 / .09);
+  --accent-ink: #f8f3ea;
+  --accent-2: #8c5a36;
+  --serif-accent: var(--accent-2);
+  --grid: rgb(60 45 25 / .05);
+  --tok-key: #2c4a72;
+  --tok-str: #8c5a36;
+  --tok-lit: #4f7a5b;
+  --tok-num: #a2432c;
+  --shadow: 0 30px 60px -34px rgb(60 40 20 / .35);
+}

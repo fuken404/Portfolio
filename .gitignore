@@ -1,0 +1,21 @@
+# Python / Django
+backend/.venv/
+__pycache__/
+*.pyc
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+.env
+.env.local
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# Sistema y herramientas locales
+.DS_Store
+*.log
+.claude/
+
+# Certificados sin tapar (contienen el número de documento)
+backend/content/certificates/_originales/
