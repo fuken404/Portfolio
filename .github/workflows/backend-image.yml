@@ -1,6 +1,6 @@
-# Construye la imagen del backend y la publica en GitHub Container Registry.
-# Azure Container Apps la descarga desde ghcr.io/fuken404/portafolio-api.
-name: Imagen del backend
+# Backend: construye la imagen, la publica en GitHub Container Registry y
+# despliega esa versión en Azure Container Apps (api.fuken404.dev).
+name: Backend
 
 on:
   push:
@@ -13,12 +13,23 @@ on:
 permissions:
   contents: read
   packages: write
+  id-token: write   # token OIDC para iniciar sesión en Azure sin contraseñas
+
+env:
+  IMAGE: ghcr.io/${{ github.repository_owner }}/portafolio-api
+  RESOURCE_GROUP: rg-portafolio
+  CONTAINER_APP: api-portafolio
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.vars.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
+
+      - id: vars
+        run: echo "tag=sha-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
 
       - uses: docker/setup-buildx-action@v3
 
@@ -28,20 +39,44 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ghcr.io/${{ github.repository_owner }}/portafolio-api
-          tags: |
-            type=raw,value=latest
-            type=sha,format=short
-
       - uses: docker/build-push-action@v6
         with:
           context: backend
           platforms: linux/amd64
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: |
+            ${{ env.IMAGE }}:latest
+            ${{ env.IMAGE }}:${{ steps.vars.outputs.tag }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: produccion
+    steps:
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      # Cambiar la imagen por la etiqueta del commit crea una revisión nueva.
+      - name: Desplegar en Container Apps
+        run: |
+          az extension add --name containerapp --upgrade --only-show-errors
+          az containerapp update \
+            --resource-group "$RESOURCE_GROUP" \
+            --name "$CONTAINER_APP" \
+            --image "$IMAGE:${{ needs.build.outputs.tag }}" \
+            --only-show-errors \
+            --query "properties.latestRevisionName" -o tsv
+
+      - name: Verificar que la API responde
+        run: |
+          for i in $(seq 1 20); do
+            if curl -fsS --max-time 15 https://api.fuken404.dev/api/health/; then exit 0; fi
+            echo "Intento $i: aún no responde, reintentando..."; sleep 15
+          done
+          echo "La API no respondió después del despliegue" >&2
+          exit 1
