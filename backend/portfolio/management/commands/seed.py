@@ -147,8 +147,8 @@ SKILLS = {
 PROJECT_ONLY_SKILLS = [
     ('SQLAlchemy', 'data'), ('Alembic', 'data'),
     ('Express', 'backend'), ('Prisma', 'data'), ('Socket.io', 'backend'), ('Sequelize', 'data'),
- ('Groq', 'ai'), ('Telegram Bot API', 'backend'),
-    ('Vercel', 'tools'), ('Fly.io', 'tools'), ('Gemini', 'tools'),
+ ('Groq', 'ai'), ('Gemini', 'ai'), ('Telegram Bot API', 'backend'),
+    ('Vercel', 'tools'), ('Fly.io', 'tools'),
 ]
 
 PROJECTS = [
