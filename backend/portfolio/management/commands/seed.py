@@ -148,7 +148,7 @@ PROJECT_ONLY_SKILLS = [
     ('SQLAlchemy', 'data'), ('Alembic', 'data'),
     ('Express', 'backend'), ('Prisma', 'data'), ('Socket.io', 'backend'), ('Sequelize', 'data'),
  ('Groq', 'ai'), ('Telegram Bot API', 'backend'),
-    ('Vercel', 'tools'), ('Fly.io', 'tools'),
+    ('Vercel', 'tools'), ('Fly.io', 'tools'), ('Gemini', 'tools'),
 ]
 
 PROJECTS = [
@@ -254,16 +254,19 @@ PROJECTS = [
     dict(
         slug='plantia', year=2025,
         repo_url='https://github.com/fuken404/PlantIA',
+        live_url='https://plantia.fuken404.dev',
         title_es='PlantIA', title_en='PlantIA',
         summary_es=(
-            'API serverless que lee la humedad y temperatura de una planta desde Firestore y genera '
-            'recomendaciones de cuidado con IA.'
+            'Monitoreo de plantas de interior: una API en FastAPI archiva en Firestore las lecturas de '
+            'humedad y temperatura, y Gemini redacta la nota de cuidado, con un asesor por reglas de '
+            'respaldo. La demo se alimenta con un simulador de sensor.'
         ),
         summary_en=(
-            'Serverless API that reads a plant\'s humidity and temperature from Firestore and '
-            'generates AI care recommendations.'
+            'Houseplant monitoring: a FastAPI service files moisture and temperature readings in Firestore '
+            'and Gemini writes the care note, with a rule-based advisor as backup. The demo is fed by a '
+            'sensor simulator.'
         ),
-        stack=['Python', 'FastAPI', 'Firebase', 'Vercel'],
+        stack=['Python', 'FastAPI', 'Firebase', 'Gemini', 'Vercel'],
     ),
     dict(
         slug='app-recordatorios', year=2026,

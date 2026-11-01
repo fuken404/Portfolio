@@ -662,17 +662,18 @@
     "id": 6,
     "title": "PlantIA",
     "slug": "plantia",
-    "summary": "API serverless que lee la humedad y temperatura de una planta desde Firestore y genera recomendaciones de cuidado con IA.",
+    "summary": "Monitoreo de plantas de interior: una API en FastAPI archiva en Firestore las lecturas de humedad y temperatura, y Gemini redacta la nota de cuidado, con un asesor por reglas de respaldo. La demo se alimenta con un simulador de sensor.",
     "description": "",
     "stack": [
      "Python",
      "FastAPI",
      "Firebase",
+     "Gemini",
      "Vercel"
     ],
     "year": 2025,
     "repo_url": "https://github.com/fuken404/PlantIA",
-    "live_url": "",
+    "live_url": "https://plantia.fuken404.dev",
     "image": null,
     "featured": false
    },
@@ -1577,17 +1578,18 @@
     "id": 6,
     "title": "PlantIA",
     "slug": "plantia",
-    "summary": "Serverless API that reads a plant's humidity and temperature from Firestore and generates AI care recommendations.",
+    "summary": "Houseplant monitoring: a FastAPI service files moisture and temperature readings in Firestore and Gemini writes the care note, with a rule-based advisor as backup. The demo is fed by a sensor simulator.",
     "description": "",
     "stack": [
      "Python",
      "FastAPI",
      "Firebase",
+     "Gemini",
      "Vercel"
     ],
     "year": 2025,
     "repo_url": "https://github.com/fuken404/PlantIA",
-    "live_url": "",
+    "live_url": "https://plantia.fuken404.dev",
     "image": null,
     "featured": false
    },
