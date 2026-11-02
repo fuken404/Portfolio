@@ -130,6 +130,36 @@ Notas de la Fase 4:
 - [ ] `https://api.fuken404.dev/admin/` funciona y exige login.
 - [ ] Revisar Cost Management a los pocos días para confirmar que todo está en USD 0.
 
+## Medición de visitas
+
+Recurso de Application Insights `appi-portafolio` (Central US) con límite diario de 0,1 GB. El frontend envía las vistas de página y los clics en los botones de proyecto (`project_demo`, `project_repo`), sin cookies; ver `frontend/src/analytics.js`. La cadena de conexión es pública y está en `frontend/.env.production`.
+
+En el portal: **Uso → Sesiones** y **Eventos**, o estas consultas en **Registros**.
+
+```kusto
+// Visitas por hora del día, en hora de Colombia
+pageViews
+| where timestamp > ago(30d)
+| summarize visitas = count() by hora = hourofday(timestamp - 5h)
+| order by hora asc
+```
+
+```kusto
+// Visitas por país y ciudad
+pageViews
+| where timestamp > ago(30d)
+| summarize visitas = count() by client_CountryOrRegion, client_City
+| order by visitas desc
+```
+
+```kusto
+// Clics por proyecto
+customEvents
+| where timestamp > ago(30d) and name startswith "project_"
+| summarize clics = count() by name, proyecto = tostring(customDimensions.project)
+| order by clics desc
+```
+
 ## Pendientes después del primer despliegue
 
 - Infraestructura como código en Bicep (recrear todo con un comando).

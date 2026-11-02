@@ -1,3 +1,4 @@
+import { trackEvent } from '../analytics'
 import { useLanguage } from '../i18n/context'
 import Section from './Section'
 
@@ -29,7 +30,7 @@ export default function Projects({ api, index }) {
               <span className="project__year">{p.year}</span>
               <div className="project__actions">
                 {p.live_url ? (
-                  <a className="btn btn--solid btn--sm" href={p.live_url} target="_blank" rel="noreferrer">
+                  <a className="btn btn--solid btn--sm" href={p.live_url} target="_blank" rel="noreferrer" onClick={() => trackEvent('project_demo', { project: p.slug })}>
                     {t.projects.live} ↗
                   </a>
                 ) : (
@@ -38,7 +39,7 @@ export default function Projects({ api, index }) {
                   </span>
                 )}
                 {p.repo_url && (
-                  <a className="btn btn--ghost btn--sm" href={p.repo_url} target="_blank" rel="noreferrer">
+                  <a className="btn btn--ghost btn--sm" href={p.repo_url} target="_blank" rel="noreferrer" onClick={() => trackEvent('project_repo', { project: p.slug })}>
                     <GitHubIcon />
                     {t.projects.repo}
                   </a>
