@@ -250,14 +250,15 @@ PROJECTS = [
     dict(
         slug='sistema-experto-diagnostico', year=2025,
         repo_url='https://github.com/fuken404/DiagnosticoMantenimientoEquiposComputo',
+        live_url='https://diagnostico-pc.fuken404.dev',
         title_es='Sistema experto de diagnóstico', title_en='Hardware diagnosis expert system',
         summary_es=(
-            'Sistema experto que diagnostica fallas de hardware en equipos de cómputo a partir de '
-            'reglas, con autenticación por roles y un panel para crear nuevas reglas.'
+            'Sistema experto que diagnostica fallas de hardware con preguntas guiadas: recorre un árbol de '
+            'decisión de 26 reglas y explica el resultado. Demo sin registro y API con roles.'
         ),
         summary_en=(
-            'Rule-based expert system that diagnoses computer hardware faults, with role-based '
-            'authentication and a panel for creating new rules.'
+            'Expert system that diagnoses hardware faults through guided questions: it walks a 26-rule '
+            'decision tree and explains the result. No-signup demo and role-based API.'
         ),
         stack=['Node.js', 'Express', 'JavaScript', 'PostgreSQL', 'Sequelize', 'JWT'],
     ),

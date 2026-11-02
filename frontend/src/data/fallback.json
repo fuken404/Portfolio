@@ -641,7 +641,7 @@
     "id": 5,
     "title": "Sistema experto de diagnóstico",
     "slug": "sistema-experto-diagnostico",
-    "summary": "Sistema experto que diagnostica fallas de hardware en equipos de cómputo a partir de reglas, con autenticación por roles y un panel para crear nuevas reglas.",
+    "summary": "Sistema experto que diagnostica fallas de hardware con preguntas guiadas: recorre un árbol de decisión de 26 reglas y explica el resultado. Demo sin registro y API con roles.",
     "description": "",
     "stack": [
      "JavaScript",
@@ -653,7 +653,7 @@
     ],
     "year": 2025,
     "repo_url": "https://github.com/fuken404/DiagnosticoMantenimientoEquiposComputo",
-    "live_url": "",
+    "live_url": "https://diagnostico-pc.fuken404.dev",
     "image": null,
     "featured": false
    },
@@ -1556,7 +1556,7 @@
     "id": 5,
     "title": "Hardware diagnosis expert system",
     "slug": "sistema-experto-diagnostico",
-    "summary": "Rule-based expert system that diagnoses computer hardware faults, with role-based authentication and a panel for creating new rules.",
+    "summary": "Expert system that diagnoses hardware faults through guided questions: it walks a 26-rule decision tree and explains the result. No-signup demo and role-based API.",
     "description": "",
     "stack": [
      "JavaScript",
@@ -1568,7 +1568,7 @@
     ],
     "year": 2025,
     "repo_url": "https://github.com/fuken404/DiagnosticoMantenimientoEquiposComputo",
-    "live_url": "",
+    "live_url": "https://diagnostico-pc.fuken404.dev",
     "image": null,
     "featured": false
    },
