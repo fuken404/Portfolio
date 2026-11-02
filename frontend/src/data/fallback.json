@@ -624,7 +624,7 @@
     "id": 4,
     "title": "Sorora",
     "slug": "sorora",
-    "summary": "Plataforma web de alerta y protección para mujeres basada en microservicios, con módulos de albergues y alertas en tiempo real.",
+    "summary": "Directorio de refugios y señal de alerta para mujeres: una API en FastAPI y MongoDB sugiere los albergues con cupo más cercanos. La demo pública usa datos ficticios y no avisa a nadie; el modo privado exige llave y reporta si el aviso por Telegram llegó.",
     "description": "",
     "stack": [
      "Python",
@@ -634,7 +634,7 @@
     ],
     "year": 2025,
     "repo_url": "https://github.com/fuken404/Sorora",
-    "live_url": "",
+    "live_url": "https://sorora.fuken404.dev",
     "image": null,
     "featured": false
    },
@@ -1540,7 +1540,7 @@
     "id": 4,
     "title": "Sorora",
     "slug": "sorora",
-    "summary": "Alert and protection web platform for women built on microservices, with shelter and real-time alert modules.",
+    "summary": "Shelter directory and alert signal for women: a FastAPI and MongoDB service suggests the nearest shelters with room. The public demo uses fictional data and notifies nobody; private mode requires a key and reports whether the Telegram alert arrived.",
     "description": "",
     "stack": [
      "Python",
@@ -1550,7 +1550,7 @@
     ],
     "year": 2025,
     "repo_url": "https://github.com/fuken404/Sorora",
-    "live_url": "",
+    "live_url": "https://sorora.fuken404.dev",
     "image": null,
     "featured": false
    },

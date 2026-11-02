@@ -226,14 +226,17 @@ PROJECTS = [
     dict(
         slug='sorora', year=2025,
         repo_url='https://github.com/fuken404/Sorora',
+        live_url='https://sorora.fuken404.dev',
         title_es='Sorora', title_en='Sorora',
         summary_es=(
-            'Plataforma web de alerta y protección para mujeres basada en microservicios, con módulos '
-            'de albergues y alertas en tiempo real.'
+            'Directorio de refugios y señal de alerta para mujeres: una API en FastAPI y MongoDB sugiere '
+            'los albergues con cupo más cercanos. La demo pública usa datos ficticios y no avisa a nadie; '
+            'el modo privado exige llave y reporta si el aviso por Telegram llegó.'
         ),
         summary_en=(
-            'Alert and protection web platform for women built on microservices, with shelter and '
-            'real-time alert modules.'
+            'Shelter directory and alert signal for women: a FastAPI and MongoDB service suggests the '
+            'nearest shelters with room. The public demo uses fictional data and notifies nobody; private '
+            'mode requires a key and reports whether the Telegram alert arrived.'
         ),
         stack=['Python', 'FastAPI', 'MongoDB', 'Docker'],
     ),
