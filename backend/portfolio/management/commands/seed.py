@@ -210,17 +210,24 @@ PROJECTS = [
     dict(
         slug='dante-ai', year=2026, featured=True,
         repo_url='https://github.com/fuken404/DanteAI',
+        live_url='https://t.me/dante_fuken_bot',
         title_es='DanteAI', title_en='DanteAI',
         summary_es=(
-            'Asistente personal y privado en Telegram con memoria persistente: conversa por texto, notas '
-            'de voz e imágenes usando Claude y Groq, y lee los enlaces que se le envían.'
+            'Asistente en Telegram con memoria persistente: conversa por texto, notas de voz e imágenes '
+            'usando Claude y Groq, y lee los enlaces que se le envían. Tiene una demo pública con cupo diario.'
         ),
         summary_en=(
-            'Private personal Telegram assistant with persistent memory: it chats through text, voice '
-            'notes and images using Claude and Groq, and reads the links it is sent.'
+            'Telegram assistant with persistent memory: it chats through text, voice notes and images '
+            'using Claude and Groq, and reads the links it is sent. It has a public demo with a daily quota.'
         ),
-        description_es='Bot asíncrono con webhooks verificados, lista de acceso, memoria en PostgreSQL y despliegue con Docker.',
-        description_en='Async bot with verified webhooks, an access list, memory stored in PostgreSQL and Docker deployment.',
+        description_es=(
+            'Bot asíncrono con webhooks verificados, cupos atómicos en PostgreSQL, modelo económico para '
+            'visitantes y borrado automático de sus datos a los 7 días.'
+        ),
+        description_en=(
+            'Async bot with verified webhooks, atomic quotas in PostgreSQL, a low-cost model for visitors '
+            'and automatic deletion of their data after 7 days.'
+        ),
         stack=['Python', 'Claude', 'Groq', 'Telegram Bot API', 'PostgreSQL', 'Docker'],
     ),
     dict(

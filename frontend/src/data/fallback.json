@@ -603,8 +603,8 @@
     "id": 3,
     "title": "DanteAI",
     "slug": "dante-ai",
-    "summary": "Asistente personal y privado en Telegram con memoria persistente: conversa por texto, notas de voz e imágenes usando Claude y Groq, y lee los enlaces que se le envían.",
-    "description": "Bot asíncrono con webhooks verificados, lista de acceso, memoria en PostgreSQL y despliegue con Docker.",
+    "summary": "Asistente en Telegram con memoria persistente: conversa por texto, notas de voz e imágenes usando Claude y Groq, y lee los enlaces que se le envían. Tiene una demo pública con cupo diario.",
+    "description": "Bot asíncrono con webhooks verificados, cupos atómicos en PostgreSQL, modelo económico para visitantes y borrado automático de sus datos a los 7 días.",
     "stack": [
      "Python",
      "PostgreSQL",
@@ -615,7 +615,7 @@
     ],
     "year": 2026,
     "repo_url": "https://github.com/fuken404/DanteAI",
-    "live_url": "",
+    "live_url": "https://t.me/dante_fuken_bot",
     "image": null,
     "featured": true
    },
@@ -1518,8 +1518,8 @@
     "id": 3,
     "title": "DanteAI",
     "slug": "dante-ai",
-    "summary": "Private personal Telegram assistant with persistent memory: it chats through text, voice notes and images using Claude and Groq, and reads the links it is sent.",
-    "description": "Async bot with verified webhooks, an access list, memory stored in PostgreSQL and Docker deployment.",
+    "summary": "Telegram assistant with persistent memory: it chats through text, voice notes and images using Claude and Groq, and reads the links it is sent. It has a public demo with a daily quota.",
+    "description": "Async bot with verified webhooks, atomic quotas in PostgreSQL, a low-cost model for visitors and automatic deletion of their data after 7 days.",
     "stack": [
      "Python",
      "PostgreSQL",
@@ -1530,7 +1530,7 @@
     ],
     "year": 2026,
     "repo_url": "https://github.com/fuken404/DanteAI",
-    "live_url": "",
+    "live_url": "https://t.me/dante_fuken_bot",
     "image": null,
     "featured": true
    },
