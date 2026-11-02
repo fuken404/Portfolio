@@ -680,7 +680,7 @@
     "id": 7,
     "title": "App de recordatorios",
     "slug": "app-recordatorios",
-    "summary": "App para iOS de recordatorios recurrentes con categorías y notificaciones locales, sin servidor ni cuenta.",
+    "summary": "App para iOS de recordatorios recurrentes con re-aviso, categorías y notificaciones locales, sin servidor ni cuenta. Tiene una demo web con una animación de cómo avisa en el iPhone.",
     "description": "",
     "stack": [
      "TypeScript",
@@ -688,7 +688,7 @@
     ],
     "year": 2026,
     "repo_url": "https://github.com/fuken404/AppRecordatorios",
-    "live_url": "",
+    "live_url": "https://recordatorios.fuken404.dev",
     "image": null,
     "featured": false
    }
@@ -1595,7 +1595,7 @@
     "id": 7,
     "title": "Reminders app",
     "slug": "app-recordatorios",
-    "summary": "iOS app for recurring reminders with categories and local notifications, no server or account needed.",
+    "summary": "iOS app for recurring reminders with repeat alerts, categories and local notifications, no server or account needed. It has a web demo with an animation of how it alerts on the iPhone.",
     "description": "",
     "stack": [
      "TypeScript",
@@ -1603,7 +1603,7 @@
     ],
     "year": 2026,
     "repo_url": "https://github.com/fuken404/AppRecordatorios",
-    "live_url": "",
+    "live_url": "https://recordatorios.fuken404.dev",
     "image": null,
     "featured": false
    }

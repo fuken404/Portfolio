@@ -281,12 +281,16 @@ PROJECTS = [
     dict(
         slug='app-recordatorios', year=2026,
         repo_url='https://github.com/fuken404/AppRecordatorios',
+        live_url='https://recordatorios.fuken404.dev',
         title_es='App de recordatorios', title_en='Reminders app',
         summary_es=(
-            'App para iOS de recordatorios recurrentes con categorías y notificaciones locales, sin '
-            'servidor ni cuenta.'
+            'App para iOS de recordatorios recurrentes con re-aviso, categorías y notificaciones locales, '
+            'sin servidor ni cuenta. Tiene una demo web con una animación de cómo avisa en el iPhone.'
         ),
-        summary_en='iOS app for recurring reminders with categories and local notifications, no server or account needed.',
+        summary_en=(
+            'iOS app for recurring reminders with repeat alerts, categories and local notifications, no '
+            'server or account needed. It has a web demo with an animation of how it alerts on the iPhone.'
+        ),
         stack=['React Native', 'TypeScript'],
     ),
 ]
