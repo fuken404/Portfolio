@@ -603,16 +603,15 @@
     "id": 3,
     "title": "DanteAI",
     "slug": "dante-ai",
-    "summary": "Asistente personal en Telegram con memoria persistente: conversa por texto, notas de voz e imágenes usando Claude y Groq, y lee los enlaces que se le envían.",
-    "description": "Bot asíncrono con webhooks, memoria en PostgreSQL y despliegue en Fly.io con Docker.",
+    "summary": "Asistente personal y privado en Telegram con memoria persistente: conversa por texto, notas de voz e imágenes usando Claude y Groq, y lee los enlaces que se le envían.",
+    "description": "Bot asíncrono con webhooks verificados, lista de acceso, memoria en PostgreSQL y despliegue con Docker.",
     "stack": [
      "Python",
      "PostgreSQL",
      "Claude",
      "Docker",
      "Groq",
-     "Telegram Bot API",
-     "Fly.io"
+     "Telegram Bot API"
     ],
     "year": 2026,
     "repo_url": "https://github.com/fuken404/DanteAI",
@@ -1519,16 +1518,15 @@
     "id": 3,
     "title": "DanteAI",
     "slug": "dante-ai",
-    "summary": "Personal Telegram assistant with persistent memory: it chats through text, voice notes and images using Claude and Groq, and reads the links it is sent.",
-    "description": "Async bot with webhooks, memory stored in PostgreSQL and deployed on Fly.io with Docker.",
+    "summary": "Private personal Telegram assistant with persistent memory: it chats through text, voice notes and images using Claude and Groq, and reads the links it is sent.",
+    "description": "Async bot with verified webhooks, an access list, memory stored in PostgreSQL and Docker deployment.",
     "stack": [
      "Python",
      "PostgreSQL",
      "Claude",
      "Docker",
      "Groq",
-     "Telegram Bot API",
-     "Fly.io"
+     "Telegram Bot API"
     ],
     "year": 2026,
     "repo_url": "https://github.com/fuken404/DanteAI",

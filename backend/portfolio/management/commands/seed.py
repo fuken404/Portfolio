@@ -212,16 +212,16 @@ PROJECTS = [
         repo_url='https://github.com/fuken404/DanteAI',
         title_es='DanteAI', title_en='DanteAI',
         summary_es=(
-            'Asistente personal en Telegram con memoria persistente: conversa por texto, notas de voz '
-            'e imágenes usando Claude y Groq, y lee los enlaces que se le envían.'
+            'Asistente personal y privado en Telegram con memoria persistente: conversa por texto, notas '
+            'de voz e imágenes usando Claude y Groq, y lee los enlaces que se le envían.'
         ),
         summary_en=(
-            'Personal Telegram assistant with persistent memory: it chats through text, voice notes '
-            'and images using Claude and Groq, and reads the links it is sent.'
+            'Private personal Telegram assistant with persistent memory: it chats through text, voice '
+            'notes and images using Claude and Groq, and reads the links it is sent.'
         ),
-        description_es='Bot asíncrono con webhooks, memoria en PostgreSQL y despliegue en Fly.io con Docker.',
-        description_en='Async bot with webhooks, memory stored in PostgreSQL and deployed on Fly.io with Docker.',
-        stack=['Python', 'Claude', 'Groq', 'Telegram Bot API', 'PostgreSQL', 'Docker', 'Fly.io'],
+        description_es='Bot asíncrono con webhooks verificados, lista de acceso, memoria en PostgreSQL y despliegue con Docker.',
+        description_en='Async bot with verified webhooks, an access list, memory stored in PostgreSQL and Docker deployment.',
+        stack=['Python', 'Claude', 'Groq', 'Telegram Bot API', 'PostgreSQL', 'Docker'],
     ),
     dict(
         slug='sorora', year=2025,
